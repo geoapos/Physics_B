@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <style type="text/css">
+td.linenos { background-color: #f0f0f0; padding-right: 10px; }
+span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
+pre { line-height: 125%; }
+body .hll { background-color: #ffffcc }
+body  { background: #f8f8f8; }
+body .c { color: #008800; font-style: italic } /* Comment */
+body .err { border: 1px solid #FF0000 } /* Error */
+body .k { color: #AA22FF; font-weight: bold } /* Keyword */
+body .o { color: #666666 } /* Operator */
+body .ch { color: #008800; font-style: italic } /* Comment.Hashbang */
+body .cm { color: #008800; font-style: italic } /* Comment.Multiline */
+body .cp { color: #008800 } /* Comment.Preproc */
+body .cpf { color: #008800; font-style: italic } /* Comment.PreprocFile */
+body .c1 { color: #008800; font-style: italic } /* Comment.Single */
+body .cs { color: #008800; font-weight: bold } /* Comment.Special */
+body .gd { color: #A00000 } /* Generic.Deleted */
+body .ge { font-style: italic } /* Generic.Emph */
+body .gr { color: #FF0000 } /* Generic.Error */
+body .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+body .gi { color: #00A000 } /* Generic.Inserted */
+body .go { color: #888888 } /* Generic.Output */
+body .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+body .gs { font-weight: bold } /* Generic.Strong */
+body .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+body .gt { color: #0044DD } /* Generic.Traceback */
+body .kc { color: #AA22FF; font-weight: bold } /* Keyword.Constant */
+body .kd { color: #AA22FF; font-weight: bold } /* Keyword.Declaration */
+body .kn { color: #AA22FF; font-weight: bold } /* Keyword.Namespace */
+body .kp { color: #AA22FF } /* Keyword.Pseudo */
+body .kr { color: #AA22FF; font-weight: bold } /* Keyword.Reserved */
+body .kt { color: #00BB00; font-weight: bold } /* Keyword.Type */
+body .m { color: #666666 } /* Literal.Number */
+body .s { color: #BB4444 } /* Literal.String */
+body .na { color: #BB4444 } /* Name.Attribute */
+body .nb { color: #AA22FF } /* Name.Builtin */
+body .nc { color: #0000FF } /* Name.Class */
+body .no { color: #880000 } /* Name.Constant */
+body .nd { color: #AA22FF } /* Name.Decorator */
+body .ni { color: #999999; font-weight: bold } /* Name.Entity */
+body .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+body .nf { color: #00A000 } /* Name.Function */
+body .nl { color: #A0A000 } /* Name.Label */
+body .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+body .nt { color: #008000; font-weight: bold } /* Name.Tag */
+body .nv { color: #B8860B } /* Name.Variable */
+body .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+body .w { color: #bbbbbb } /* Text.Whitespace */
+body .mb { color: #666666 } /* Literal.Number.Bin */
+body .mf { color: #666666 } /* Literal.Number.Float */
+body .mh { color: #666666 } /* Literal.Number.Hex */
+body .mi { color: #666666 } /* Literal.Number.Integer */
+body .mo { color: #666666 } /* Literal.Number.Oct */
+body .sa { color: #BB4444 } /* Literal.String.Affix */
+body .sb { color: #BB4444 } /* Literal.String.Backtick */
+body .sc { color: #BB4444 } /* Literal.String.Char */
+body .dl { color: #BB4444 } /* Literal.String.Delimiter */
+body .sd { color: #BB4444; font-style: italic } /* Literal.String.Doc */
+body .s2 { color: #BB4444 } /* Literal.String.Double */
+body .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+body .sh { color: #BB4444 } /* Literal.String.Heredoc */
+body .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+body .sx { color: #008000 } /* Literal.String.Other */
+body .sr { color: #BB6688 } /* Literal.String.Regex */
+body .s1 { color: #BB4444 } /* Literal.String.Single */
+body .ss { color: #B8860B } /* Literal.String.Symbol */
+body .bp { color: #AA22FF } /* Name.Builtin.Pseudo */
+body .fm { color: #00A000 } /* Name.Function.Magic */
+body .vc { color: #B8860B } /* Name.Variable.Class */
+body .vg { color: #B8860B } /* Name.Variable.Global */
+body .vi { color: #B8860B } /* Name.Variable.Instance */
+body .vm { color: #B8860B } /* Name.Variable.Magic */
+body .il { color: #666666 } /* Literal.Number.Integer.Long */
+
+  </style>
+</head>
+<body>
+<h2></h2>
+
+<div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/python3</span>
+<span class="c1">#Filename: 1_36.py</span>
+<span class="sd">&#39;&#39;&#39;Άσκηση 36:</span>
+
+<span class="sd">Ένας επίπεδος πυκνωτής έχει χωρητικότητα 2μF, απόσταση οπλισμών 2cm και</span>
+<span class="sd">έχει φορτιστεί με τάση 150V. Στη συνέχεια απομακρύνουμε την πηγή φόρτισης</span>
+<span class="sd">και διπλασιάζουμε την απόσταση των οπλισμών του.</span>
+<span class="sd">Να υπολογιστούν οι τιμές πριν και μετά το διπλασιασμό:</span>
+<span class="sd">Α. Της χωρητικότητας του πυκνωτή.</span>
+<span class="sd">Β. Της τάσης μεταξύ των οπλισμών του.</span>
+<span class="sd">Γ. Της έντασης του ηλεκτρικού πεδίου.</span>
+<span class="sd">Δ. Της ενέργειας του ηλεκτρικού πεδίου.</span>
+<span class="sd">Πώς εξηγείται η μεταβολή της ενέργειας του πυκνωτή;</span>
+
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">e0</span>    <span class="c1">#H απόλυτη διηλεκτρική σταθερά του κενού</span>
+
+<span class="c1">#Δεδομένα</span>
+<span class="n">C1</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>            <span class="c1"># χωρητικότητα πυκνωτή σε F.</span>
+<span class="n">l1</span> <span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>           <span class="c1"># απόσταση οπλισμών σε m.</span>
+<span class="n">l2</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="n">l1</span>                  <span class="c1"># απόσταση οπλισμών μετά τον διπλασιασμό σε m.</span>
+<span class="n">V1</span><span class="o">=</span><span class="mi">150</span>                   <span class="c1"># Τάση σε V</span>
+<span class="n">l2</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="n">l1</span>
+
+<span class="k">print</span><span class="p">()</span>
+<span class="n">Q1</span><span class="o">=</span><span class="n">C1</span><span class="o">*</span><span class="n">V1</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο του πυκνωτή δίνεται από την σχέση Q1=C1*V1 =&gt; Q1={:.2e} C&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Q1</span><span class="p">)</span> <span class="p">)</span>
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;---------------------------A.-------------------------------&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΠΡΙΝ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η χωρητικότητα του πυκνωτή είναι C1=e0*S/l1:             C1=&#39;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">C1</span><span class="p">)</span><span class="o">+</span><span class="s1">&#39; F&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΜΕΤΑ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
+<span class="n">C2</span><span class="o">=</span><span class="n">C1</span><span class="o">/</span><span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η χωρητικότητα του πυκνωτή είναι C2=e0*S/2l1 =&gt;C2=C1/2 =&gt;C2={:.0e} F&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">C2</span><span class="p">))</span>
+
+
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;---------------------------B.-------------------------------&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΠΡΙΝ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η τάση των οπλισμών του πυκνωτή είναι V1=Q1/C1 =&gt; V1={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V1</span><span class="p">)</span> <span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΜΕΤΑ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
+<span class="n">V2</span><span class="o">=</span><span class="n">Q1</span><span class="o">/</span><span class="n">C2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η τάση των οπλισμών του πυκνωτή είναι V2=Q1/C2 =&gt; V2={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V2</span><span class="p">)</span> <span class="p">)</span>
+
+
+
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;---------------------------Γ.-------------------------------&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΠΡΙΝ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
+<span class="n">E1</span><span class="o">=</span><span class="n">V1</span><span class="o">/</span><span class="n">l1</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ένταση του ηλεκτρικού πεδίου είναι E1=V1/l1 =&gt; E1={:.2f} V/m&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">E1</span><span class="p">)</span> <span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΜΕΤΑ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
+<span class="n">E2</span><span class="o">=</span><span class="n">V2</span><span class="o">/</span><span class="n">l2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ένταση του ηλεκτρικού πεδίου είναι E2=V2/l2 =&gt; E2={:.2f} V/m&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">E2</span><span class="p">)</span> <span class="p">)</span>
+
+
+
+
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;---------------------------Δ.-------------------------------&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΠΡΙΝ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
+<span class="n">U1</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">Q1</span><span class="o">*</span><span class="n">V1</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ενέργεια του ηλεκτρικού πεδίου είναι U1=(1/2)*Q1*V1 =&gt; U1={:.4f} J&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">U1</span><span class="p">)</span> <span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΜΕΤΑ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
+<span class="n">U2</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">Q1</span><span class="o">*</span><span class="n">V2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ενέργεια του ηλεκτρικού πεδίου είναι U2=(1/2)*Q2*V2 =&gt; U2={:.4f} J&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">U2</span><span class="p">)</span> <span class="p">)</span>
+</pre></div>
+</body>
+</html>
