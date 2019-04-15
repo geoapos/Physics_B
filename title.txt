@@ -1,8 +1,5 @@
-1. Αποθετήριο διαθεματικής χρήσης της Python, στην Δευτεροβάθμια Εκπαίδευση.
-1. Implementation of Cross-thematic  approach repository of Python,  in Secondary Education
+Χρήση προγραμματιστικών εργαλείων στην διαθεματική προσέγγιση της Πληροφορικής στην Φυσική στην Δευτεροβάθμια Εκπαίδευση.
 
-
-2. Χρήση προγραμματιστικών εργαλείων στην διαθεματική προσέγγιση της Πληροφορικής στην Φυσική στην Δευτεροβάθμια Εκπαίδευση.
-2.Implementation of programming tools in   Cross-thematic  approach   of Informatics in Physics in Secondary Education.
+Implementation of programming tools in   Cross-thematic  approach   of Informatics in Physics in Secondary Education.
 
 
