@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <style type="text/css">
+td.linenos { background-color: #f0f0f0; padding-right: 10px; }
+span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
+pre { line-height: 125%; }
+body .hll { background-color: #ffffcc }
+body  { background: #f8f8f8; }
+body .c { color: #008800; font-style: italic } /* Comment */
+body .err { border: 1px solid #FF0000 } /* Error */
+body .k { color: #AA22FF; font-weight: bold } /* Keyword */
+body .o { color: #666666 } /* Operator */
+body .ch { color: #008800; font-style: italic } /* Comment.Hashbang */
+body .cm { color: #008800; font-style: italic } /* Comment.Multiline */
+body .cp { color: #008800 } /* Comment.Preproc */
+body .cpf { color: #008800; font-style: italic } /* Comment.PreprocFile */
+body .c1 { color: #008800; font-style: italic } /* Comment.Single */
+body .cs { color: #008800; font-weight: bold } /* Comment.Special */
+body .gd { color: #A00000 } /* Generic.Deleted */
+body .ge { font-style: italic } /* Generic.Emph */
+body .gr { color: #FF0000 } /* Generic.Error */
+body .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+body .gi { color: #00A000 } /* Generic.Inserted */
+body .go { color: #888888 } /* Generic.Output */
+body .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+body .gs { font-weight: bold } /* Generic.Strong */
+body .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+body .gt { color: #0044DD } /* Generic.Traceback */
+body .kc { color: #AA22FF; font-weight: bold } /* Keyword.Constant */
+body .kd { color: #AA22FF; font-weight: bold } /* Keyword.Declaration */
+body .kn { color: #AA22FF; font-weight: bold } /* Keyword.Namespace */
+body .kp { color: #AA22FF } /* Keyword.Pseudo */
+body .kr { color: #AA22FF; font-weight: bold } /* Keyword.Reserved */
+body .kt { color: #00BB00; font-weight: bold } /* Keyword.Type */
+body .m { color: #666666 } /* Literal.Number */
+body .s { color: #BB4444 } /* Literal.String */
+body .na { color: #BB4444 } /* Name.Attribute */
+body .nb { color: #AA22FF } /* Name.Builtin */
+body .nc { color: #0000FF } /* Name.Class */
+body .no { color: #880000 } /* Name.Constant */
+body .nd { color: #AA22FF } /* Name.Decorator */
+body .ni { color: #999999; font-weight: bold } /* Name.Entity */
+body .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+body .nf { color: #00A000 } /* Name.Function */
+body .nl { color: #A0A000 } /* Name.Label */
+body .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+body .nt { color: #008000; font-weight: bold } /* Name.Tag */
+body .nv { color: #B8860B } /* Name.Variable */
+body .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+body .w { color: #bbbbbb } /* Text.Whitespace */
+body .mb { color: #666666 } /* Literal.Number.Bin */
+body .mf { color: #666666 } /* Literal.Number.Float */
+body .mh { color: #666666 } /* Literal.Number.Hex */
+body .mi { color: #666666 } /* Literal.Number.Integer */
+body .mo { color: #666666 } /* Literal.Number.Oct */
+body .sa { color: #BB4444 } /* Literal.String.Affix */
+body .sb { color: #BB4444 } /* Literal.String.Backtick */
+body .sc { color: #BB4444 } /* Literal.String.Char */
+body .dl { color: #BB4444 } /* Literal.String.Delimiter */
+body .sd { color: #BB4444; font-style: italic } /* Literal.String.Doc */
+body .s2 { color: #BB4444 } /* Literal.String.Double */
+body .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+body .sh { color: #BB4444 } /* Literal.String.Heredoc */
+body .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+body .sx { color: #008000 } /* Literal.String.Other */
+body .sr { color: #BB6688 } /* Literal.String.Regex */
+body .s1 { color: #BB4444 } /* Literal.String.Single */
+body .ss { color: #B8860B } /* Literal.String.Symbol */
+body .bp { color: #AA22FF } /* Name.Builtin.Pseudo */
+body .fm { color: #00A000 } /* Name.Function.Magic */
+body .vc { color: #B8860B } /* Name.Variable.Class */
+body .vg { color: #B8860B } /* Name.Variable.Global */
+body .vi { color: #B8860B } /* Name.Variable.Instance */
+body .vm { color: #B8860B } /* Name.Variable.Magic */
+body .il { color: #666666 } /* Literal.Number.Integer.Long */
+
+  </style>
+</head>
+<body>
+<h2></h2>
+
+<div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/python3</span>
+<span class="c1">#filename 2_26.py</span>
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">Άσκηση 2.26</span>
+
+<span class="sd">Στο παρακάτω κύκλωμα, να βρείτε σε J τη</span>
+<span class="sd">θερμότητα που εκλύεται σε κάθε αντίσταση</span>
+<span class="sd">σε χρόνο t = 1 min.</span>
+<span class="sd">&#39;&#39;&#39;</span>
+
+<span class="c1">#Δεδομένα</span>
+<span class="n">R1</span><span class="o">=</span><span class="mi">10</span>       <span class="c1">#Αντίσταση σε Ω</span>
+<span class="n">R2</span><span class="o">=</span><span class="mi">10</span>       <span class="c1">#Αντίσταση σε Ω</span>
+<span class="n">R3</span><span class="o">=</span><span class="mi">5</span>        <span class="c1">#Αντίσταση σε Ω</span>
+<span class="n">R4</span><span class="o">=</span><span class="mi">90</span>       <span class="c1">#Αντίσταση σε Ω</span>
+<span class="n">R5</span><span class="o">=</span><span class="mi">11</span>       <span class="c1">#Αντίσταση σε Ω</span>
+<span class="n">V</span><span class="o">=</span><span class="mi">180</span>       <span class="c1">#Τάση σε V</span>
+<span class="n">t</span><span class="o">=</span><span class="mi">60</span>        <span class="c1">#Χρόνος σε sec</span>
+
+
+<span class="c1">#CRED = &#39;\x1b[6;30;42m&#39;</span>
+<span class="c1">#CEND = &#39;\x1b[0m&#39;</span>
+
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η αντίστασεις R1 και R2 είναι παράλληλες, άρα:&#39;</span><span class="p">)</span>
+<span class="n">R12</span><span class="o">=</span> <span class="p">(</span><span class="n">R1</span><span class="o">*</span><span class="n">R2</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">R1</span><span class="o">+</span><span class="n">R2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;R12= (R1*R2)/(R1+R2) =&gt;R12={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R12</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η αντίσταση που προκύπτει R12 είναι σε σειρά με την R3, οπότε:&#39;</span><span class="p">)</span>
+<span class="n">R123</span><span class="o">=</span><span class="n">R12</span><span class="o">+</span><span class="n">R3</span>
+<span class="c1">#print(&#39;R123=R12+R3 =&gt;{} R123={:.2f} Ω {}&#39;.format(CRED, R123, CEND))  colorized text</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;R123=R12+R3 =&gt; R123={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R123</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Έτσι έχουμε την αντίσταση R123 η οποία είναι παράλληλη με την R4, άρα:&#39;</span><span class="p">)</span>
+<span class="n">R1234</span><span class="o">=</span><span class="n">R123</span><span class="o">*</span><span class="n">R4</span><span class="o">/</span><span class="p">(</span><span class="n">R123</span><span class="o">+</span><span class="n">R4</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;R1234=R123*R4/(R123+R4) =&gt; R1234={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R1234</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η αντίσταση που προκύπτει R1234 είναι σε σειρά με την R5, οπότε:&#39;</span><span class="p">)</span>
+<span class="n">R12345</span><span class="o">=</span><span class="n">R1234</span><span class="o">+</span><span class="n">R5</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;R12345=R1234+R5 =&gt; R12345={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R12345</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">()</span>
+<span class="n">I5</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span class="n">R12345</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I5=V/R12345 =&gt; I5={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I5</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">()</span>
+<span class="n">I1234</span><span class="o">=</span><span class="p">(</span><span class="n">V</span><span class="o">-</span><span class="n">I5</span><span class="o">*</span><span class="n">R5</span><span class="p">)</span><span class="o">/</span><span class="n">R1234</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V=I1234*R1234+I5*R5 =&gt; I1234=(V-I5*R5)/R1234 =&gt; I1234={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I1234</span><span class="p">))</span>
+<span class="n">I4</span><span class="o">=</span><span class="n">I1234</span><span class="o">*</span><span class="n">R1234</span><span class="o">/</span><span class="n">R4</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ισχύει όμως I1234*R1234=I4*R4 =&gt; I4=I1234*R1234/R4 =&gt;I4={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I4</span><span class="p">))</span>
+<span class="n">Q4</span><span class="o">=</span><span class="p">(</span><span class="n">I4</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">R4</span><span class="o">*</span><span class="n">t</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η Θερμότητα που εκλύεται στην R4 είναι Q4=I4²*R4*t =&gt; Q4={:.2f} J&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Q4</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">()</span>
+<span class="n">I123</span><span class="o">=</span><span class="p">(</span><span class="n">I4</span><span class="o">*</span><span class="n">R4</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">R12</span><span class="o">+</span><span class="n">R3</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V4=I4*R4 =&gt;I123*(R12+R3)=I4*R4 =&gt;I123=(I4*R4)/(R12+R3) =&gt; I123={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I123</span><span class="p">))</span>
+<span class="n">Q3</span><span class="o">=</span><span class="p">(</span><span class="n">I123</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">R3</span><span class="o">*</span><span class="n">t</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η Θερμότητα που εκλύεται στην R3 είναι Q3=I123²*R3*t =&gt;  Q3={:.2f} J&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Q3</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">()</span>
+<span class="n">I12</span><span class="o">=</span><span class="p">(</span><span class="n">I4</span><span class="o">*</span><span class="n">R4</span><span class="o">-</span><span class="n">I123</span><span class="o">*</span><span class="n">R3</span><span class="p">)</span><span class="o">/</span><span class="n">R12</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ισχύει όμως I12*R12+I123*R3=I4*R4 =&gt; I12=(I4*R4-I123*R3)/R12 =&gt;I12={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I12</span><span class="p">))</span>
+<span class="n">I2</span><span class="o">=</span><span class="n">I12</span><span class="o">*</span><span class="n">R12</span><span class="o">/</span><span class="n">R2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ισχύει όμως I12*R12=I2*R2 =&gt; I2=I12*R12/R2 =&gt;I2={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I2</span><span class="p">))</span>
+<span class="n">Q2</span><span class="o">=</span><span class="p">(</span><span class="n">I2</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">R2</span><span class="o">*</span><span class="n">t</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η Θερμότητα που εκλύεται στην R2 είναι Q2=I2²*R2*t =&gt;  Q2={:.2f} J&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Q2</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">()</span>
+<span class="n">I1</span><span class="o">=</span><span class="n">I2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ισχύει I1*R1=I2*R2 και επειδή R1=R2 =&gt; I2=I1 =&gt;I1={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I1</span><span class="p">))</span>
+<span class="n">Q1</span><span class="o">=</span><span class="p">(</span><span class="n">I1</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">R1</span><span class="o">*</span><span class="n">t</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η Θερμότητα που εκλύεται στην R1 είναι Q1=I1²*R2*t =&gt;  Q1={:.2f} J&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Q1</span><span class="p">))</span>
+</pre></div>
+</body>
+</html>
