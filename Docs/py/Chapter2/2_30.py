@@ -42,3 +42,5 @@ V=(I3*R3)/(1-R4/Rol)
 print('V=(I3*R3)/(1-R4/Rol)=> V={:.2f} V'.format(V))
 Iολ=V/Rol
 print('Επειδή V=Iολ*Rολ=> Iολ=V/Rol=>Iολ={:.2f} Α'.format(Iολ))
+P4=(Iολ**2)*R4 
+print('Επειδή επίσης P4=Iολ²*R4 => P4={:.2f} W'.format(P4))
