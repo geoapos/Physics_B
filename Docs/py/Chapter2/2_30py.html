@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -100,36 +101,74 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 <span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">sqrt</span>
 
 <span class="c1">#Δεδομένα</span>
-<span class="n">R1</span><span class="o">=</span><span class="mi">2</span>            <span class="c1">#Αντίσταση σε Ω</span>
-<span class="n">R2</span><span class="o">=</span><span class="mi">4</span>            <span class="c1">#Αντίσταση σε Ω</span>
-<span class="n">R3</span><span class="o">=</span><span class="mi">6</span>            <span class="c1">#Αντίσταση σε Ω</span>
-<span class="n">R4</span><span class="o">=</span><span class="mi">8</span>            <span class="c1">#Αντίσταση σε Ω</span>
-<span class="n">Rol</span><span class="o">=</span><span class="mi">11</span>          <span class="c1">#Αντίσταση σε Ω</span>
-<span class="n">P3</span><span class="o">=</span><span class="mi">24</span>           <span class="c1">#Ισχύς σε W</span>
+<span class="n">R1</span><span class="o">=</span><span class="mi">2</span>            <span
+            class="c1">#Αντίσταση σε Ω</span>
+<span class="n">R2</span><span class="o">=</span><span class="mi">4</span>            <span
+            class="c1">#Αντίσταση σε Ω</span>
+<span class="n">R3</span><span class="o">=</span><span class="mi">6</span>            <span
+            class="c1">#Αντίσταση σε Ω</span>
+<span class="n">R4</span><span class="o">=</span><span class="mi">8</span>            <span
+            class="c1">#Αντίσταση σε Ω</span>
+<span class="n">Rol</span><span class="o">=</span><span class="mi">11</span>          <span
+            class="c1">#Αντίσταση σε Ω</span>
+<span class="n">P3</span><span class="o">=</span><span class="mi">24</span>           <span
+            class="c1">#Ισχύς σε W</span>
 
 
 <span class="k">print</span><span class="p">()</span>
-<span class="n">R12</span><span class="o">=</span><span class="n">R1</span><span class="o">+</span><span class="n">R2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Οι αντιστάσεις R1 και R2 συνδέονται σε σειρά άρα R12=R1+R2 =&gt;&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;R1={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R12</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Οι αντιστάσεις R12 και R3 συνδέονται παράλληλα, άρα:&#39;</span><span class="p">)</span>
-<span class="n">R123</span><span class="o">=</span><span class="n">R12</span><span class="o">*</span><span class="n">R3</span><span class="o">/</span><span class="p">(</span><span class="n">R12</span><span class="o">+</span><span class="n">R3</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;R123=R12*R3/(R12+R3) =&gt; R123={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R123</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Τέλος οι αντιστάσεις R123 και R4 συνδέονται σε σειρά,&#39;</span><span class="p">)</span>
-<span class="n">R</span><span class="err">ολ</span><span class="o">=</span><span class="n">R123</span><span class="o">+</span><span class="n">R4</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Rολ=R123+R4 =&gt; Rολ={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R</span><span class="err">ολ</span><span class="p">))</span>
+<span class="n">R12</span><span class="o">=</span><span class="n">R1</span><span class="o">+</span><span
+            class="n">R2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Οι αντιστάσεις R1 και R2 συνδέονται σε σειρά άρα R12=R1+R2 =&gt;&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;R1={:.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R12</span><span
+            class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Οι αντιστάσεις R12 και R3 συνδέονται παράλληλα, άρα:&#39;</span><span
+            class="p">)</span>
+<span class="n">R123</span><span class="o">=</span><span class="n">R12</span><span class="o">*</span><span
+            class="n">R3</span><span class="o">/</span><span class="p">(</span><span class="n">R12</span><span
+            class="o">+</span><span class="n">R3</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;R123=R12*R3/(R12+R3) =&gt; R123={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span
+            class="p">(</span><span class="n">R123</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Τέλος οι αντιστάσεις R123 και R4 συνδέονται σε σειρά,&#39;</span><span
+            class="p">)</span>
+<span class="n">R</span><span class="err">ολ</span><span class="o">=</span><span class="n">R123</span><span
+            class="o">+</span><span class="n">R4</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;Rολ=R123+R4 =&gt; Rολ={:.2f} Ω&#39;</span><span class="o">.</span><span
+            class="n">format</span><span class="p">(</span><span class="n">R</span><span class="err">ολ</span><span
+            class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ισχύς στην αντίσταση R3 είναι P3=I3²*R3 =&gt; I3=√(P3/R3) =&gt;&#39;</span><span class="p">)</span>
-<span class="n">I3</span><span class="o">=</span><span class="n">sqrt</span><span class="p">(</span><span class="n">P3</span><span class="o">/</span><span class="n">R3</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I3={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I3</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ισχύς στην αντίσταση R3 είναι P3=I3²*R3 =&gt; I3=√(P3/R3) =&gt;&#39;</span><span
+            class="p">)</span>
+<span class="n">I3</span><span class="o">=</span><span class="n">sqrt</span><span class="p">(</span><span
+            class="n">P3</span><span class="o">/</span><span class="n">R3</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I3={:.2f} A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I3</span><span
+            class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ισχύει V=I3*R3+Iολ*R4 =&gt; V=I3*R3+(V/Rολ)*R4 =&gt;&#39;</span><span class="p">)</span>
-<span class="n">V</span><span class="o">=</span><span class="p">(</span><span class="n">I3</span><span class="o">*</span><span class="n">R3</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">R4</span><span class="o">/</span><span class="n">Rol</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V=(I3*R3)/(1-R4/Rol)=&gt; V={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V</span><span class="p">))</span>
-<span class="n">I</span><span class="err">ολ</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span class="n">Rol</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Επειδή V=Iολ*Rολ=&gt; Iολ=V/Rol=&gt;Iολ={:.2f} Α&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I</span><span class="err">ολ</span><span class="p">))</span>
-<span class="n">P4</span><span class="o">=</span><span class="p">(</span><span class="n">I</span><span class="err">ολ</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">R4</span> 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Επειδή επίσης P4=Iολ²*R4 =&gt; P4={:.2f} W&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">P4</span><span class="p">))</span>
-</pre></div>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ισχύει V=I3*R3+Iολ*R4 =&gt; V=I3*R3+(V/Rολ)*R4 =&gt;&#39;</span><span
+            class="p">)</span>
+<span class="n">V</span><span class="o">=</span><span class="p">(</span><span class="n">I3</span><span
+            class="o">*</span><span class="n">R3</span><span class="p">)</span><span class="o">/</span><span
+            class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">R4</span><span class="o">/</span><span
+            class="n">Rol</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;V=(I3*R3)/(1-R4/Rol)=&gt; V={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span
+            class="p">(</span><span class="n">V</span><span class="p">))</span>
+<span class="n">I</span><span class="err">ολ</span><span class="o">=</span><span class="n">V</span><span
+            class="o">/</span><span class="n">Rol</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Επειδή V=Iολ*Rολ=&gt; Iολ=V/Rol=&gt;Iολ={:.2f} Α&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I</span><span
+            class="err">ολ</span><span class="p">))</span>
+<span class="n">P4</span><span class="o">=</span><span class="p">(</span><span class="n">I</span><span
+            class="err">ολ</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span
+            class="o">*</span><span class="n">R4</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Επειδή επίσης P4=Iολ²*R4 =&gt; P4={:.2f} W&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">P4</span><span
+            class="p">))</span>
+</pre>
+</div>
 </body>
 </html>

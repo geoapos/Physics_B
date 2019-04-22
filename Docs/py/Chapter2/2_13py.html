@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -109,44 +110,92 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
 <span class="k">print</span><span class="p">()</span>
 
-<span class="n">R</span><span class="err">ΑΓ</span><span class="o">=</span><span class="p">(</span><span class="n">R1</span><span class="o">*</span><span class="n">R2</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">R1</span><span class="o">+</span><span class="n">R2</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H Αντίσταση RAΓ=(R1*R2)/(R1+R2) =&gt; RΑΓ={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R</span><span class="err">ΑΓ</span><span class="p">))</span>
+<span class="n">R</span><span class="err">ΑΓ</span><span class="o">=</span><span class="p">(</span><span
+            class="n">R1</span><span class="o">*</span><span class="n">R2</span><span class="p">)</span><span class="o">/</span><span
+            class="p">(</span><span class="n">R1</span><span class="o">+</span><span class="n">R2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H Αντίσταση RAΓ=(R1*R2)/(R1+R2) =&gt; RΑΓ={:.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R</span><span
+            class="err">ΑΓ</span><span class="p">))</span>
 
-<span class="n">RA</span><span class="err">ΓΒ</span><span class="o">=</span><span class="n">R</span><span class="err">ΑΓ</span><span class="o">+</span><span class="n">R3</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H Αντίσταση RAΓΒ=RAΓ+R3 =&gt; RAΓΒ={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">RA</span><span class="err">ΓΒ</span><span class="p">))</span>
+<span class="n">RA</span><span class="err">ΓΒ</span><span class="o">=</span><span class="n">R</span><span
+            class="err">ΑΓ</span><span class="o">+</span><span class="n">R3</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H Αντίσταση RAΓΒ=RAΓ+R3 =&gt; RAΓΒ={:.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">RA</span><span
+            class="err">ΓΒ</span><span class="p">))</span>
 
-<span class="n">RA</span><span class="err">ΔΒ</span><span class="o">=</span><span class="n">R4</span><span class="o">+</span><span class="n">R5</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H Αντίσταση RAΔΒ=R4+R5 =&gt; RAΔΒ={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">RA</span><span class="err">ΔΒ</span><span class="p">))</span>
+<span class="n">RA</span><span class="err">ΔΒ</span><span class="o">=</span><span class="n">R4</span><span
+            class="o">+</span><span class="n">R5</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H Αντίσταση RAΔΒ=R4+R5 =&gt; RAΔΒ={:.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">RA</span><span
+            class="err">ΔΒ</span><span class="p">))</span>
 
-<span class="n">RA</span><span class="err">Β</span><span class="o">=</span><span class="p">(</span><span class="n">RA</span><span class="err">ΓΒ</span><span class="o">*</span><span class="n">RA</span><span class="err">ΔΒ</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">RA</span><span class="err">ΓΒ</span><span class="o">+</span><span class="n">RA</span><span class="err">ΔΒ</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H Αντίσταση RAΒ=(RAΓΒ*RAΔΒ)/(RAΓΒ+RAΔΒ) =&gt; RAΒ={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">RA</span><span class="err">ΔΒ</span><span class="p">))</span>
+<span class="n">RA</span><span class="err">Β</span><span class="o">=</span><span class="p">(</span><span
+            class="n">RA</span><span class="err">ΓΒ</span><span class="o">*</span><span class="n">RA</span><span
+            class="err">ΔΒ</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span
+            class="n">RA</span><span class="err">ΓΒ</span><span class="o">+</span><span class="n">RA</span><span
+            class="err">ΔΒ</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H Αντίσταση RAΒ=(RAΓΒ*RAΔΒ)/(RAΓΒ+RAΔΒ) =&gt; RAΒ={:.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">RA</span><span
+            class="err">ΔΒ</span><span class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
 
-<span class="n">V4</span><span class="o">=</span><span class="n">V</span><span class="o">*</span><span class="p">(</span><span class="n">R4</span><span class="o">/</span><span class="n">RA</span><span class="err">ΔΒ</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V=IΑΔΒ*RΑΔΒ επίσης V4=VΑΔ=IΑΔΒ*R4 =&gt;V4=V*(R4/RΑΔΒ) =&gt; V4={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V4</span><span class="p">))</span>
+<span class="n">V4</span><span class="o">=</span><span class="n">V</span><span class="o">*</span><span
+            class="p">(</span><span class="n">R4</span><span class="o">/</span><span class="n">RA</span><span
+            class="err">ΔΒ</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V=IΑΔΒ*RΑΔΒ επίσης V4=VΑΔ=IΑΔΒ*R4 =&gt;V4=V*(R4/RΑΔΒ) =&gt; V4={:.2f} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V4</span><span
+            class="p">))</span>
 
-<span class="n">V5</span><span class="o">=</span><span class="n">V</span><span class="o">*</span><span class="p">(</span><span class="n">R5</span><span class="o">/</span><span class="n">RA</span><span class="err">ΔΒ</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V=IΑΔΒ*RΑΔΒ επίσης V5=VΔΒ=IΑΔΒ*R5 =&gt;V5=V*(R5/RΑΔΒ) =&gt; V5={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V5</span><span class="p">))</span>
+<span class="n">V5</span><span class="o">=</span><span class="n">V</span><span class="o">*</span><span
+            class="p">(</span><span class="n">R5</span><span class="o">/</span><span class="n">RA</span><span
+            class="err">ΔΒ</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V=IΑΔΒ*RΑΔΒ επίσης V5=VΔΒ=IΑΔΒ*R5 =&gt;V5=V*(R5/RΑΔΒ) =&gt; V5={:.2f} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V5</span><span
+            class="p">))</span>
 
-<span class="n">V3</span><span class="o">=</span><span class="n">V</span><span class="o">*</span><span class="p">(</span><span class="n">R3</span><span class="o">/</span><span class="n">RA</span><span class="err">ΓΒ</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V=IΑΓΒ*RΑΓΒ επίσης V3=VΓΒ=IΑΓΒ*R3 =&gt;V3=V*(R3/RΑΓΒ) =&gt; V3={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V3</span><span class="p">))</span>
+<span class="n">V3</span><span class="o">=</span><span class="n">V</span><span class="o">*</span><span
+            class="p">(</span><span class="n">R3</span><span class="o">/</span><span class="n">RA</span><span
+            class="err">ΓΒ</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V=IΑΓΒ*RΑΓΒ επίσης V3=VΓΒ=IΑΓΒ*R3 =&gt;V3=V*(R3/RΑΓΒ) =&gt; V3={:.2f} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V3</span><span
+            class="p">))</span>
 
-<span class="n">V</span><span class="err">ΑΓ</span><span class="o">=</span><span class="n">V1</span><span class="o">=</span><span class="n">V2</span><span class="o">=</span><span class="p">(</span><span class="n">V</span><span class="o">-</span><span class="n">V3</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;VΑΓ=V1=V2=(V-V3) =&gt; V1=V2={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V1</span><span class="p">))</span>
+<span class="n">V</span><span class="err">ΑΓ</span><span class="o">=</span><span class="n">V1</span><span
+            class="o">=</span><span class="n">V2</span><span class="o">=</span><span class="p">(</span><span
+            class="n">V</span><span class="o">-</span><span class="n">V3</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;VΑΓ=V1=V2=(V-V3) =&gt; V1=V2={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span
+            class="p">(</span><span class="n">V1</span><span class="p">))</span>
 
 
 
 <span class="k">print</span><span class="p">()</span>
-<span class="n">I1</span><span class="o">=</span><span class="n">V1</span><span class="o">/</span><span class="n">R1</span>
-<span class="n">I2</span><span class="o">=</span><span class="n">V2</span><span class="o">/</span><span class="n">R2</span>
-<span class="n">I3</span><span class="o">=</span><span class="n">V3</span><span class="o">/</span><span class="n">R3</span>
-<span class="n">I4</span><span class="o">=</span><span class="n">V4</span><span class="o">/</span><span class="n">R4</span>
-<span class="n">I5</span><span class="o">=</span><span class="n">V5</span><span class="o">/</span><span class="n">R5</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I1=V1/R1 =&gt; I1={:.2f}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I1</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I2=V2/R2 =&gt; I2={:.2f}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I2</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I3=V3/R3 =&gt; I3={:.2f}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I3</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I4=V4/R4 =&gt; I4={:.2f}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I4</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I5=V5/R5 =&gt; I5={:.2f}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I5</span><span class="p">))</span>
-</pre></div>
+<span class="n">I1</span><span class="o">=</span><span class="n">V1</span><span class="o">/</span><span
+            class="n">R1</span>
+<span class="n">I2</span><span class="o">=</span><span class="n">V2</span><span class="o">/</span><span
+            class="n">R2</span>
+<span class="n">I3</span><span class="o">=</span><span class="n">V3</span><span class="o">/</span><span
+            class="n">R3</span>
+<span class="n">I4</span><span class="o">=</span><span class="n">V4</span><span class="o">/</span><span
+            class="n">R4</span>
+<span class="n">I5</span><span class="o">=</span><span class="n">V5</span><span class="o">/</span><span
+            class="n">R5</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I1=V1/R1 =&gt; I1={:.2f}&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I1</span><span
+            class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I2=V2/R2 =&gt; I2={:.2f}&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I2</span><span
+            class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I3=V3/R3 =&gt; I3={:.2f}&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I3</span><span
+            class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I4=V4/R4 =&gt; I4={:.2f}&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I4</span><span
+            class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I5=V5/R5 =&gt; I5={:.2f}&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I5</span><span
+            class="p">))</span>
+</pre>
+</div>
 </body>
 </html>

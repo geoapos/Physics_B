@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -104,41 +105,79 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 <span class="n">V</span><span class="o">=</span><span class="mi">30</span>                            <span class="c1">#Τάση σε V</span>
 
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;----------A.----------------&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Σύμφωνα με τον νόμο του Kirchof I=I1+I2&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;----------A.----------------&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;Σύμφωνα με τον νόμο του Kirchof I=I1+I2&#39;</span><span class="p">)</span>
 
-<span class="n">R12</span><span class="o">=</span><span class="n">R1</span><span class="o">+</span><span class="n">R2</span>
-<span class="n">R34</span><span class="o">=</span><span class="n">R3</span><span class="o">+</span><span class="n">R4</span>
-<span class="n">I12</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span class="p">(</span><span class="n">R1</span><span class="o">+</span><span class="n">R2</span><span class="p">)</span>
-<span class="n">I34</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span class="p">(</span><span class="n">R3</span><span class="o">+</span><span class="n">R4</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ισχύει I12=V/(R1+R2) =&gt; I12={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I12</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ισχύει I34=V/(R3+R4) =&gt; I34={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I34</span><span class="p">))</span>
+<span class="n">R12</span><span class="o">=</span><span class="n">R1</span><span class="o">+</span><span
+            class="n">R2</span>
+<span class="n">R34</span><span class="o">=</span><span class="n">R3</span><span class="o">+</span><span
+            class="n">R4</span>
+<span class="n">I12</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span
+            class="p">(</span><span class="n">R1</span><span class="o">+</span><span class="n">R2</span><span class="p">)</span>
+<span class="n">I34</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span
+            class="p">(</span><span class="n">R3</span><span class="o">+</span><span class="n">R4</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;Ισχύει I12=V/(R1+R2) =&gt; I12={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span
+            class="p">(</span><span class="n">I12</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;Ισχύει I34=V/(R3+R4) =&gt; I34={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span
+            class="p">(</span><span class="n">I34</span><span class="p">))</span>
 
 <span class="k">print</span><span class="p">()</span>
-<span class="n">V</span><span class="err">ΑΒ</span><span class="o">=</span><span class="n">I12</span><span class="o">*</span><span class="n">R2</span><span class="o">-</span><span class="n">I34</span><span class="o">*</span><span class="n">R4</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;VAB=VΑΔ+VΔΒ =&gt; VΑΒ=I1*R2-I2*R4 =&gt; VΑΒ={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V</span><span class="err">ΑΒ</span><span class="p">))</span>
+<span class="n">V</span><span class="err">ΑΒ</span><span class="o">=</span><span class="n">I12</span><span
+            class="o">*</span><span class="n">R2</span><span class="o">-</span><span class="n">I34</span><span
+            class="o">*</span><span class="n">R4</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;VAB=VΑΔ+VΔΒ =&gt; VΑΒ=I1*R2-I2*R4 =&gt; VΑΒ={:.2f} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V</span><span
+            class="err">ΑΒ</span><span class="p">))</span>
 
 
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;----------B.----------------&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Έστω R5 η αντίσταση που θα τοποθετήσουμε παράλληλα στην R4&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Έστω I1 το ρεύμα που διέρχεται από την R1 και R2&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Έστω I3 το ρεύμα που διέρχεται από την R3&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Έστω I4 το ρεύμα που διέρχεται από την R4&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Έστω I5 το ρεύμα που διέρχεται από την R5&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;----------B.----------------&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Έστω R5 η αντίσταση που θα τοποθετήσουμε παράλληλα στην R4&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Έστω I1 το ρεύμα που διέρχεται από την R1 και R2&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;Έστω I3 το ρεύμα που διέρχεται από την R3&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;Έστω I4 το ρεύμα που διέρχεται από την R4&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;Έστω I5 το ρεύμα που διέρχεται από την R5&#39;</span><span class="p">)</span>
 <span class="k">print</span><span class="p">()</span>
 
 
-<span class="n">I1</span> <span class="o">=</span> <span class="n">V</span> <span class="o">/</span> <span class="p">(</span><span class="n">R1</span><span class="o">+</span><span class="n">R2</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Iσχύει V = I1*R1 + I1*R2 =&gt; I1 = V / (R1+R2)                            =&gt; I1 = {:&gt;5.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I1</span><span class="p">))</span>
-<span class="n">I4</span> <span class="o">=</span> <span class="n">I1</span><span class="o">*</span><span class="n">R2</span> <span class="o">/</span> <span class="n">R4</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Επειδή VΑΒ=0 =&gt; Ι1*R2=I4*R4 =&gt; I4 = I1*R2 / R4                          =&gt; I4 = {:&gt;5.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I4</span><span class="p">))</span>
-<span class="n">I3</span><span class="o">=</span><span class="p">(</span><span class="n">V</span><span class="o">-</span><span class="p">(</span><span class="n">I4</span><span class="o">*</span><span class="n">R4</span><span class="p">))</span><span class="o">/</span><span class="n">R3</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Iσχύει V = I3*R3 + I4*R4 =&gt; I3*R3=V-(I4*R4)=&gt;I3=(V-(I4*R4))/R3          =&gt; I3 = {:&gt;5.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I3</span><span class="p">))</span>
-<span class="n">I5</span><span class="o">=</span><span class="n">I3</span><span class="o">-</span><span class="n">I4</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Σύμφωνα με τον νόμο του Kirchof I3=I4+I5 =&gt; I5=I3-I4                    =&gt; I5 = {:&gt;5.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I5</span><span class="p">))</span>
-<span class="n">R5</span><span class="o">=</span><span class="p">(</span><span class="n">V</span><span class="o">-</span><span class="p">(</span><span class="n">I3</span><span class="o">*</span><span class="n">R3</span><span class="p">))</span><span class="o">/</span><span class="n">I5</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Τέλος επειδή VV = I3*R3 + I5*R5 =&gt; I3*R3=V-(I5*R5)=&gt;R5=(V-(I3*R3))/I5   =&gt; R5 = {:&gt;5.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R5</span><span class="p">))</span>
-</pre></div>
+<span class="n">I1</span> <span class="o">=</span> <span class="n">V</span> <span class="o">/</span> <span
+            class="p">(</span><span class="n">R1</span><span class="o">+</span><span class="n">R2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Iσχύει V = I1*R1 + I1*R2 =&gt; I1 = V / (R1+R2)                            =&gt; I1 = {:&gt;5.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I1</span><span
+            class="p">))</span>
+<span class="n">I4</span> <span class="o">=</span> <span class="n">I1</span><span class="o">*</span><span
+            class="n">R2</span> <span class="o">/</span> <span class="n">R4</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Επειδή VΑΒ=0 =&gt; Ι1*R2=I4*R4 =&gt; I4 = I1*R2 / R4                          =&gt; I4 = {:&gt;5.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I4</span><span
+            class="p">))</span>
+<span class="n">I3</span><span class="o">=</span><span class="p">(</span><span class="n">V</span><span
+            class="o">-</span><span class="p">(</span><span class="n">I4</span><span class="o">*</span><span class="n">R4</span><span
+            class="p">))</span><span class="o">/</span><span class="n">R3</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Iσχύει V = I3*R3 + I4*R4 =&gt; I3*R3=V-(I4*R4)=&gt;I3=(V-(I4*R4))/R3          =&gt; I3 = {:&gt;5.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I3</span><span
+            class="p">))</span>
+<span class="n">I5</span><span class="o">=</span><span class="n">I3</span><span class="o">-</span><span
+            class="n">I4</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Σύμφωνα με τον νόμο του Kirchof I3=I4+I5 =&gt; I5=I3-I4                    =&gt; I5 = {:&gt;5.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I5</span><span
+            class="p">))</span>
+<span class="n">R5</span><span class="o">=</span><span class="p">(</span><span class="n">V</span><span
+            class="o">-</span><span class="p">(</span><span class="n">I3</span><span class="o">*</span><span class="n">R3</span><span
+            class="p">))</span><span class="o">/</span><span class="n">I5</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Τέλος επειδή VV = I3*R3 + I5*R5 =&gt; I3*R3=V-(I5*R5)=&gt;R5=(V-(I3*R3))/I5   =&gt; R5 = {:&gt;5.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R5</span><span
+            class="p">))</span>
+</pre>
+</div>
 </body>
 </html>

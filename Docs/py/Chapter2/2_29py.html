@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -102,35 +103,68 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
 <span class="c1">#Δεδομένα</span>
 <span class="n">R1</span><span class="o">=</span><span class="mi">40</span>           <span class="c1">#Αντίσταση λαμπτήρα σε Ω</span>
-<span class="n">R2</span><span class="o">=</span><span class="mi">20</span>           <span class="c1">#Αντίσταση σε Ω</span>
-<span class="n">R3</span><span class="o">=</span><span class="mi">40</span>           <span class="c1">#Αντίσταση σε Ω</span>
+<span class="n">R2</span><span class="o">=</span><span class="mi">20</span>           <span
+            class="c1">#Αντίσταση σε Ω</span>
+<span class="n">R3</span><span class="o">=</span><span class="mi">40</span>           <span
+            class="c1">#Αντίσταση σε Ω</span>
 <span class="n">V</span><span class="o">=</span><span class="mi">120</span>           <span class="c1">#Τάση σε V</span>
 
 
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Α. Το ρεύμα που διαρέει το κυκλωμα είναι:&#39;</span><span class="p">)</span>
-<span class="err">Ι</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span class="p">(</span><span class="n">R1</span><span class="o">+</span><span class="n">R2</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ι=V/(R1+R2)=&gt; I={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">Ι</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;Α. Το ρεύμα που διαρέει το κυκλωμα είναι:&#39;</span><span class="p">)</span>
+<span class="err">Ι</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span
+            class="p">(</span><span class="n">R1</span><span class="o">+</span><span class="n">R2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ι=V/(R1+R2)=&gt; I={:.2f} A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">Ι</span><span
+            class="p">))</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ισχύς του Λσμπτήρα είναι Pηλ=Ι²*R1 =&gt;&#39;</span><span class="p">)</span>
-<span class="n">P</span><span class="err">ηλ</span><span class="o">=</span><span class="p">(</span><span class="err">Ι</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">R1</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Pηλ={:.2f} W&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">P</span><span class="err">ηλ</span><span class="p">))</span>
-
-<span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Β. Αν παράλληλα με τον λαμπτήρα συνδεθεί αντίσταση R3, τότε:&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;η ισοδύναμη αντίσταση γίνεται R13=R1*R3/(R1+R3) =&gt;&#39;</span><span class="p">)</span>
-<span class="n">R13</span><span class="o">=</span><span class="n">R1</span><span class="o">*</span><span class="n">R3</span><span class="o">/</span><span class="p">(</span><span class="n">R1</span><span class="o">+</span><span class="n">R3</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;R13={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R13</span><span class="p">))</span>
-<span class="n">I</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span class="p">(</span><span class="n">R13</span><span class="o">+</span><span class="n">R2</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;και θα ισχύει V=I*R13+I*R2 =&gt; I={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η τάση στα άκρα του λαμπτήρα θα είναι V13 =&gt;&#39;</span><span class="p">)</span>
-<span class="n">I1</span><span class="o">=</span><span class="n">I</span><span class="o">*</span><span class="n">R13</span><span class="o">/</span><span class="n">R1</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V13=I*R13 =&gt; I*R13=I1*R1 =&gt; I1=I*R13/R1 =&gt;I1={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I1</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ισχύς του Λσμπτήρα είναι Pηλ=Ι²*R1 =&gt;&#39;</span><span
+            class="p">)</span>
+<span class="n">P</span><span class="err">ηλ</span><span class="o">=</span><span class="p">(</span><span
+            class="err">Ι</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span
+            class="o">*</span><span class="n">R1</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Pηλ={:.2f} W&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">P</span><span
+            class="err">ηλ</span><span class="p">))</span>
 
 <span class="k">print</span><span class="p">()</span>
-<span class="n">Pnew</span><span class="o">=</span><span class="p">(</span><span class="n">I1</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">R1</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η νέα ισχύς Pnew=(Ι1**2)*R1 =&gt;Pnew={:.2f} W&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Pnew</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;άρα μεταβολή: (Pnew-Pηλ)/Pηλ = {:.2f} %&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="mi">100</span><span class="o">*</span><span class="p">(</span><span class="n">Pnew</span><span class="o">-</span><span class="n">P</span><span class="err">ηλ</span><span class="p">)</span><span class="o">/</span><span class="n">P</span><span class="err">ηλ</span><span class="p">))</span>
-</pre></div>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Β. Αν παράλληλα με τον λαμπτήρα συνδεθεί αντίσταση R3, τότε:&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;η ισοδύναμη αντίσταση γίνεται R13=R1*R3/(R1+R3) =&gt;&#39;</span><span
+            class="p">)</span>
+<span class="n">R13</span><span class="o">=</span><span class="n">R1</span><span class="o">*</span><span
+            class="n">R3</span><span class="o">/</span><span class="p">(</span><span class="n">R1</span><span class="o">+</span><span
+            class="n">R3</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;R13={:.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R13</span><span
+            class="p">))</span>
+<span class="n">I</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span class="p">(</span><span
+            class="n">R13</span><span class="o">+</span><span class="n">R2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;και θα ισχύει V=I*R13+I*R2 =&gt; I={:.2f} A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I</span><span
+            class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η τάση στα άκρα του λαμπτήρα θα είναι V13 =&gt;&#39;</span><span
+            class="p">)</span>
+<span class="n">I1</span><span class="o">=</span><span class="n">I</span><span class="o">*</span><span
+            class="n">R13</span><span class="o">/</span><span class="n">R1</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V13=I*R13 =&gt; I*R13=I1*R1 =&gt; I1=I*R13/R1 =&gt;I1={:.2f} A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I1</span><span
+            class="p">))</span>
+
+<span class="k">print</span><span class="p">()</span>
+<span class="n">Pnew</span><span class="o">=</span><span class="p">(</span><span class="n">I1</span><span
+            class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">R1</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η νέα ισχύς Pnew=(Ι1**2)*R1 =&gt;Pnew={:.2f} W&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Pnew</span><span
+            class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;άρα μεταβολή: (Pnew-Pηλ)/Pηλ = {:.2f} %&#39;</span><span class="o">.</span><span class="n">format</span><span
+            class="p">(</span><span class="mi">100</span><span class="o">*</span><span class="p">(</span><span
+            class="n">Pnew</span><span class="o">-</span><span class="n">P</span><span class="err">ηλ</span><span
+            class="p">)</span><span class="o">/</span><span class="n">P</span><span class="err">ηλ</span><span
+            class="p">))</span>
+</pre>
+</div>
 </body>
 </html>

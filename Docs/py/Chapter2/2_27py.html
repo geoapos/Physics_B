@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -103,38 +104,73 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
 
 <span class="c1">#Δεδομένα</span>
-<span class="n">Vl</span><span class="o">=</span><span class="mi">20</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">)</span>          <span class="c1">#Όγκος σε m3</span>
-<span class="err">θ</span><span class="mi">1</span><span class="o">=</span><span class="mi">10</span>                   <span class="c1">#Θερμοκρασία σε οC</span>
-<span class="err">θ</span><span class="mi">2</span><span class="o">=</span><span class="mi">80</span>                   <span class="c1">#Θερμοκρασία σε οC</span>
+<span class="n">Vl</span><span class="o">=</span><span class="mi">20</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">3</span><span class="p">)</span>          <span class="c1">#Όγκος σε m3</span>
+<span class="err">θ</span><span class="mi">1</span><span class="o">=</span><span class="mi">10</span>                   <span
+            class="c1">#Θερμοκρασία σε οC</span>
+<span class="err">θ</span><span class="mi">2</span><span class="o">=</span><span class="mi">80</span>                   <span
+            class="c1">#Θερμοκρασία σε οC</span>
 <span class="n">R</span><span class="o">=</span><span class="mi">10</span>                    <span class="c1">#Αντίσταση σε Ω</span>
 <span class="n">n</span><span class="o">=</span><span class="mf">0.8</span>                   <span class="c1">#Ποσοστό 80%</span>
-<span class="n">d</span><span class="o">=</span><span class="mi">1</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">1</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">))</span>  <span class="c1">#Πυκνότητα σε Kg/m3</span>
-<span class="n">Cp</span><span class="o">=</span><span class="mf">4.18</span><span class="o">/</span><span class="p">(</span><span class="mi">1</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">))</span>       <span class="c1">#Ειδική θερμότητα σε J/Kg·grad</span>
+<span class="n">d</span><span class="o">=</span><span class="mi">1</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">3</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">1</span><span
+            class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span
+            class="o">-</span><span class="mi">6</span><span class="p">))</span>  <span
+            class="c1">#Πυκνότητα σε Kg/m3</span>
+<span class="n">Cp</span><span class="o">=</span><span class="mf">4.18</span><span class="o">/</span><span
+            class="p">(</span><span class="mi">1</span><span class="o">*</span><span class="mi">10</span><span
+            class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">))</span>       <span
+            class="c1">#Ειδική θερμότητα σε J/Kg·grad</span>
 <span class="n">K</span><span class="o">=</span><span class="mf">0.1</span>                    <span class="c1">#Κόστος σε €/KWh</span>
 <span class="n">V</span><span class="o">=</span><span class="mi">220</span>                   <span class="c1">#Τάση σε V</span>
 
 
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η αποροφούμενη ηλεκτρική ενέργεια είναι: E=V²*t/R   (1)&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το 80% αυτής αποδίδεται στο νερό, άρα Q=0.8*E (2)&#39;</span><span class="p">)</span>
-<span class="err">ΔΤ</span><span class="o">=</span><span class="err">θ</span><span class="mi">2</span><span class="o">-</span><span class="err">θ</span><span class="mi">1</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ισχύει όμως Q=m*Cp*ΔΤ  (3) όπου ΔΤ=θ2-θ1&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η αποροφούμενη ηλεκτρική ενέργεια είναι: E=V²*t/R   (1)&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το 80% αυτής αποδίδεται στο νερό, άρα Q=0.8*E (2)&#39;</span><span
+            class="p">)</span>
+<span class="err">ΔΤ</span><span class="o">=</span><span class="err">θ</span><span class="mi">2</span><span
+            class="o">-</span><span class="err">θ</span><span class="mi">1</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;Ισχύει όμως Q=m*Cp*ΔΤ  (3) όπου ΔΤ=θ2-θ1&#39;</span><span class="p">)</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;από την (2),(3) έχουμε: 0.8*E=(d*Vl)*Cp*ΔΤ =&gt;&#39;</span><span class="p">)</span>
-<span class="n">E</span><span class="o">=</span><span class="p">(</span><span class="n">d</span><span class="o">*</span><span class="n">Vl</span><span class="p">)</span><span class="o">*</span><span class="n">Cp</span><span class="o">*</span><span class="err">ΔΤ</span><span class="o">/</span><span class="mf">0.8</span>      <span class="c1">#Ηλεκτρική ενέργεια</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ε={:.2f} J&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">E</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;από την (2),(3) έχουμε: 0.8*E=(d*Vl)*Cp*ΔΤ =&gt;&#39;</span><span
+            class="p">)</span>
+<span class="n">E</span><span class="o">=</span><span class="p">(</span><span class="n">d</span><span class="o">*</span><span
+            class="n">Vl</span><span class="p">)</span><span class="o">*</span><span class="n">Cp</span><span class="o">*</span><span
+            class="err">ΔΤ</span><span class="o">/</span><span class="mf">0.8</span>      <span class="c1">#Ηλεκτρική ενέργεια</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ε={:.2f} J&#39;</span><span class="o">.</span><span
+            class="n">format</span><span class="p">(</span><span class="n">E</span><span class="p">))</span>
 
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;από την σχέση (1) =&gt; Ε=V²*t/R =&gt;t=(E*R)/V² =&gt;&#39;</span><span class="p">)</span>
-<span class="n">t</span><span class="o">=</span><span class="p">(</span><span class="n">E</span><span class="o">*</span><span class="n">R</span><span class="p">)</span><span class="o">/</span><span class="n">V</span><span class="o">**</span><span class="mi">2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;t={:.2f} sec ή t={:.2f} h&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">t</span><span class="o">/</span><span class="mi">3600</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;από την σχέση (1) =&gt; Ε=V²*t/R =&gt;t=(E*R)/V² =&gt;&#39;</span><span
+            class="p">)</span>
+<span class="n">t</span><span class="o">=</span><span class="p">(</span><span class="n">E</span><span class="o">*</span><span
+            class="n">R</span><span class="p">)</span><span class="o">/</span><span class="n">V</span><span
+            class="o">**</span><span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;t={:.2f} sec ή t={:.2f} h&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">t</span><span
+            class="p">,</span> <span class="n">t</span><span class="o">/</span><span class="mi">3600</span><span
+            class="p">))</span>
 
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Όπως είδαμε στην (1) η αποροφούμενη ενέργεια είναι:&#39;</span><span class="p">)</span>
-<span class="n">Eap</span><span class="o">=</span><span class="p">(</span><span class="n">E</span><span class="o">*</span><span class="mi">10</span><span class="o">**-</span><span class="mi">3</span><span class="p">)</span><span class="o">/</span><span class="mi">3600</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ε={:.2f} KWh&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Eap</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Όπως είδαμε στην (1) η αποροφούμενη ενέργεια είναι:&#39;</span><span
+            class="p">)</span>
+<span class="n">Eap</span><span class="o">=</span><span class="p">(</span><span class="n">E</span><span
+            class="o">*</span><span class="mi">10</span><span class="o">**-</span><span class="mi">3</span><span
+            class="p">)</span><span class="o">/</span><span class="mi">3600</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ε={:.2f} KWh&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Eap</span><span
+            class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;άρα το κόστος είναι: {:.2f}*{:.2f}={:.2f} ΕΥΡΩ&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Eap</span><span class="p">,</span> <span class="n">K</span><span class="p">,</span> <span class="n">Eap</span><span class="o">*</span><span class="n">K</span><span class="p">))</span>
-</pre></div>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;άρα το κόστος είναι: {:.2f}*{:.2f}={:.2f} ΕΥΡΩ&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Eap</span><span
+            class="p">,</span> <span class="n">K</span><span class="p">,</span> <span class="n">Eap</span><span
+            class="o">*</span><span class="n">K</span><span class="p">))</span>
+</pre>
+</div>
 </body>
 </html>

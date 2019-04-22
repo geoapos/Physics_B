@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -102,38 +103,67 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 <span class="n">R3</span><span class="o">=</span><span class="mi">4</span>                            <span class="c1">#Αντίσταση σε Ω</span>
 <span class="n">R4</span><span class="o">=</span><span class="mi">5</span>                            <span class="c1">#Αντίσταση σε Ω</span>
 <span class="n">R5</span><span class="o">=</span><span class="mi">11</span>                           <span class="c1">#Αντίσταση σε Ω</span>
-<span class="n">V23</span><span class="o">=</span><span class="n">V2</span><span class="o">=</span><span class="n">V3</span><span class="o">=</span><span class="mi">4</span>                         <span class="c1">#Ένδειξη βολτόμετρου σε V</span>
+<span class="n">V23</span><span class="o">=</span><span class="n">V2</span><span class="o">=</span><span
+            class="n">V3</span><span class="o">=</span><span class="mi">4</span>                         <span
+            class="c1">#Ένδειξη βολτόμετρου σε V</span>
 <span class="n">V</span><span class="o">=</span><span class="mi">10</span>                            <span class="c1">#Τάση Πηγής σε V</span>
 
 
 <span class="k">print</span><span class="p">()</span>
 
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H τάση στα άκρα των αντιστάσεων  R2 και R3 είναι η ένδειξη του βολτομέτρου V2&#39;</span><span class="p">)</span>
-<span class="n">I2</span><span class="o">=</span><span class="n">V2</span><span class="o">/</span><span class="n">R2</span>
-<span class="n">I3</span><span class="o">=</span><span class="n">V2</span><span class="o">/</span><span class="n">R3</span>
-<span class="n">I1</span><span class="o">=</span><span class="n">I2</span><span class="o">+</span><span class="n">I3</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I2=V2/R2 =&gt; I2={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I2</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I3=V2/R3 =&gt; I3={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I3</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I1=I2+I3 =&gt; I1={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I1</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H τάση στα άκρα των αντιστάσεων  R2 και R3 είναι η ένδειξη του βολτομέτρου V2&#39;</span><span
+            class="p">)</span>
+<span class="n">I2</span><span class="o">=</span><span class="n">V2</span><span class="o">/</span><span
+            class="n">R2</span>
+<span class="n">I3</span><span class="o">=</span><span class="n">V2</span><span class="o">/</span><span
+            class="n">R3</span>
+<span class="n">I1</span><span class="o">=</span><span class="n">I2</span><span class="o">+</span><span
+            class="n">I3</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I2=V2/R2 =&gt; I2={:.2f} A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I2</span><span
+            class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I3=V2/R3 =&gt; I3={:.2f} A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I3</span><span
+            class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;I1=I2+I3 =&gt; I1={:.2f} A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I1</span><span
+            class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
 
-<span class="n">V1</span><span class="o">=</span><span class="n">I1</span><span class="o">*</span><span class="n">R1</span>
-<span class="n">V123</span><span class="o">=</span><span class="n">V1</span><span class="o">+</span><span class="n">V23</span>
+<span class="n">V1</span><span class="o">=</span><span class="n">I1</span><span class="o">*</span><span
+            class="n">R1</span>
+<span class="n">V123</span><span class="o">=</span><span class="n">V1</span><span class="o">+</span><span
+            class="n">V23</span>
 <span class="n">V45</span><span class="o">=</span><span class="n">V123</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V1=I1*R1 =&gt;      V1={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V1</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V123=V1+V23 =&gt; V123={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V123</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;V45=V123 =&gt;     V45={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V45</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;V1=I1*R1 =&gt;      V1={:.2f} V&#39;</span><span class="o">.</span><span
+            class="n">format</span><span class="p">(</span><span class="n">V1</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;V123=V1+V23 =&gt; V123={:.2f} V&#39;</span><span class="o">.</span><span
+            class="n">format</span><span class="p">(</span><span class="n">V123</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;V45=V123 =&gt;     V45={:.2f} V&#39;</span><span class="o">.</span><span
+            class="n">format</span><span class="p">(</span><span class="n">V45</span><span class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
 
-<span class="n">R45</span><span class="o">=</span><span class="n">R4</span><span class="o">+</span><span class="n">R5</span>
-<span class="n">I45</span><span class="o">=</span><span class="n">V45</span><span class="o">/</span><span class="n">R45</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ένδειξη του αμπερομέτρου είναι I45=V45/R45 =&gt;  I45={:.2f} Α&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I45</span><span class="p">))</span>
+<span class="n">R45</span><span class="o">=</span><span class="n">R4</span><span class="o">+</span><span
+            class="n">R5</span>
+<span class="n">I45</span><span class="o">=</span><span class="n">V45</span><span class="o">/</span><span
+            class="n">R45</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ένδειξη του αμπερομέτρου είναι I45=V45/R45 =&gt;  I45={:.2f} Α&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I45</span><span
+            class="p">))</span>
 
 <span class="k">print</span><span class="p">()</span>
-<span class="n">Iol</span><span class="o">=</span><span class="n">I45</span><span class="o">+</span><span class="n">I1</span>
-<span class="n">Rx</span><span class="o">=</span><span class="p">(</span><span class="n">V</span><span class="o">-</span><span class="n">V45</span><span class="p">)</span><span class="o">/</span><span class="n">Iol</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ισχύει ότι Iol=I45+I1 και V45=V-Rx*Iol άρα Rx=(V-V45)/Iol =&gt;  Rx={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Rx</span><span class="p">))</span>
-</pre></div>
+<span class="n">Iol</span><span class="o">=</span><span class="n">I45</span><span class="o">+</span><span
+            class="n">I1</span>
+<span class="n">Rx</span><span class="o">=</span><span class="p">(</span><span class="n">V</span><span
+            class="o">-</span><span class="n">V45</span><span class="p">)</span><span class="o">/</span><span class="n">Iol</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ισχύει ότι Iol=I45+I1 και V45=V-Rx*Iol άρα Rx=(V-V45)/Iol =&gt;  Rx={:.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Rx</span><span
+            class="p">))</span>
+</pre>
+</div>
 </body>
 </html>

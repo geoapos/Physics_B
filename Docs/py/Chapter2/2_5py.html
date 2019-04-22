@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -96,36 +97,76 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 <span class="sd">δ) την ένταση του ρεύματος που τον διαρρέει.</span>
 
 <span class="sd">&#39;&#39;&#39;</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span
+            class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 
-<span class="k">def</span> <span class="nf">RI</span><span class="p">(</span><span class="n">l</span><span class="p">):</span>
-    <span class="err">ρ</span><span class="o">=</span><span class="mf">1.7</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">8</span><span class="p">)</span>  <span class="c1">#Ειδική αντίσταση χαλκού σε Ωmself.</span>
-    <span class="n">S</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">4</span><span class="p">)</span>    <span class="c1">#Διατομή Χαλκού σε m2self</span>
-    <span class="n">R</span><span class="o">=</span><span class="err">ρ</span><span class="o">*</span><span class="n">l</span><span class="o">/</span><span class="n">S</span>
+<span class="k">def</span> <span class="nf">RI</span><span class="p">(</span><span class="n">l</span><span
+            class="p">):</span>
+    <span class="err">ρ</span><span class="o">=</span><span class="mf">1.7</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">8</span><span class="p">)</span>  <span class="c1">#Ειδική αντίσταση χαλκού σε Ωmself.</span>
+    <span class="n">S</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">4</span><span class="p">)</span>    <span class="c1">#Διατομή Χαλκού σε m2self</span>
+    <span class="n">R</span><span class="o">=</span><span class="err">ρ</span><span class="o">*</span><span
+            class="n">l</span><span class="o">/</span><span class="n">S</span>
     <span class="k">return</span>  <span class="n">R</span>
 
-<span class="k">def</span> <span class="nf">RS</span><span class="p">(</span><span class="n">S</span><span class="p">):</span>
-    <span class="err">ρ</span><span class="o">=</span><span class="mf">1.7</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">8</span><span class="p">)</span>  <span class="c1">#Ειδική αντίσταση χαλκού σε Ωmself.</span>
+<span class="k">def</span> <span class="nf">RS</span><span class="p">(</span><span class="n">S</span><span
+            class="p">):</span>
+    <span class="err">ρ</span><span class="o">=</span><span class="mf">1.7</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">8</span><span class="p">)</span>  <span class="c1">#Ειδική αντίσταση χαλκού σε Ωmself.</span>
     <span class="n">l</span><span class="o">=</span><span class="mi">2</span>             <span class="c1">#Μηκος αγωγού σε m</span>
-    <span class="n">R</span><span class="o">=</span><span class="err">ρ</span><span class="o">*</span><span class="n">l</span><span class="o">/</span><span class="n">S</span>
+    <span class="n">R</span><span class="o">=</span><span class="err">ρ</span><span class="o">*</span><span
+            class="n">l</span><span class="o">/</span><span class="n">S</span>
     <span class="k">return</span>  <span class="n">R</span>
 
-<span class="n">l</span><span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">1000</span><span class="p">)</span>           <span class="c1">#Εύρος του l από 0-30 με 1000 τιμές δειγματοληψία</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Αντίσταση ενός αγωγού σε συνάρτηση με το μήκος του&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">)</span>     <span class="c1">#τίτλος γραφήματος</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Μήκος l (m)&#39;</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">)</span>    <span class="c1"># x label</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Αντίσταση (Ω)&#39;</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">)</span>    <span class="c1"># x label</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="n">RI</span><span class="p">(</span><span class="n">l</span><span class="p">),</span> <span class="s1">&#39;g-&#39;</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">2.0</span><span class="p">)</span>
+<span class="n">l</span><span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span
+            class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">30</span><span
+            class="p">,</span><span class="mi">1000</span><span class="p">)</span>           <span class="c1">#Εύρος του l από 0-30 με 1000 τιμές δειγματοληψία</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Αντίσταση ενός αγωγού σε συνάρτηση με το μήκος του&#39;</span><span
+            class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span
+            class="p">,</span> <span class="n">color</span><span class="o">=</span><span
+            class="s1">&#39;green&#39;</span><span class="p">)</span>     <span class="c1">#τίτλος γραφήματος</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Μήκος l (m)&#39;</span><span
+            class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span
+            class="p">,</span> <span class="n">color</span><span class="o">=</span><span
+            class="s1">&#39;green&#39;</span><span class="p">)</span>    <span class="c1"># x label</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Αντίσταση (Ω)&#39;</span><span
+            class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span
+            class="p">,</span> <span class="n">color</span><span class="o">=</span><span
+            class="s1">&#39;green&#39;</span><span class="p">)</span>    <span class="c1"># x label</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span
+            class="n">l</span><span class="p">,</span> <span class="n">RI</span><span class="p">(</span><span class="n">l</span><span
+            class="p">),</span> <span class="s1">&#39;g-&#39;</span><span class="p">,</span> <span
+            class="n">linewidth</span><span class="o">=</span><span class="mf">2.0</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 
 
 
-<span class="n">S</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">1000</span><span class="p">)</span>            <span class="c1">#Εύρος του S από 1-30 με 1000 τιμές δειγματοληψία</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Αντίσταση ενός αγωγού σε συνάρτηση με την διατομή του&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>     <span class="c1">#τίτλος γραφήματος</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Διατομή (m2)&#39;</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>    <span class="c1"># x label</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Αντίσταση (Ω)&#39;</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>    <span class="c1"># x label</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">S</span><span class="p">,</span> <span class="n">RS</span><span class="p">(</span><span class="n">S</span><span class="p">),</span> <span class="s1">&#39;r-&#39;</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">2.0</span><span class="p">)</span>
+<span class="n">S</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span
+            class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">30</span><span
+            class="p">,</span><span class="mi">1000</span><span class="p">)</span>            <span class="c1">#Εύρος του S από 1-30 με 1000 τιμές δειγματοληψία</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Αντίσταση ενός αγωγού σε συνάρτηση με την διατομή του&#39;</span><span
+            class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span
+            class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span
+            class="p">)</span>     <span class="c1">#τίτλος γραφήματος</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Διατομή (m2)&#39;</span><span
+            class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span
+            class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span
+            class="p">)</span>    <span class="c1"># x label</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Αντίσταση (Ω)&#39;</span><span
+            class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span
+            class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span
+            class="p">)</span>    <span class="c1"># x label</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span
+            class="n">S</span><span class="p">,</span> <span class="n">RS</span><span class="p">(</span><span class="n">S</span><span
+            class="p">),</span> <span class="s1">&#39;r-&#39;</span><span class="p">,</span> <span
+            class="n">linewidth</span><span class="o">=</span><span class="mf">2.0</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
+</pre>
+</div>
 </body>
 </html>

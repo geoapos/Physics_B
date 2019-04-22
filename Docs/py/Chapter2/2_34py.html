@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -98,30 +99,54 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 <span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">sqrt</span>
 
 <span class="c1">#Δεδομένα</span>
-<span class="n">Pth</span><span class="o">=</span><span class="mi">100</span>          <span class="c1">#Ισχύς σε W</span>
-<span class="n">Vth</span><span class="o">=</span><span class="mi">200</span>          <span class="c1">#Τάση σε V</span>
-<span class="n">PL</span><span class="o">=</span><span class="mi">24</span>            <span class="c1">#Ισχύς σε W</span>
-<span class="n">VL</span><span class="o">=</span><span class="mi">12</span>            <span class="c1">#Τάση σε V</span>
+<span class="n">Pth</span><span class="o">=</span><span class="mi">100</span>          <span
+            class="c1">#Ισχύς σε W</span>
+<span class="n">Vth</span><span class="o">=</span><span class="mi">200</span>          <span
+            class="c1">#Τάση σε V</span>
+<span class="n">PL</span><span class="o">=</span><span class="mi">24</span>            <span
+            class="c1">#Ισχύς σε W</span>
+<span class="n">VL</span><span class="o">=</span><span class="mi">12</span>            <span
+            class="c1">#Τάση σε V</span>
 
 
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Για να λειτουργεί κανονικά ο λαμπτήρας θα πρέπει να δέχεται την&#39;</span><span class="p">)</span>
-<span class="n">IL</span><span class="o">=</span><span class="n">PL</span><span class="o">/</span><span class="n">VL</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;ονομαστική του ένταση που είναι IL= PL/VL =&gt; IL={:.2f}A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">IL</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Για να λειτουργεί κανονικά ο λαμπτήρας θα πρέπει να δέχεται την&#39;</span><span
+            class="p">)</span>
+<span class="n">IL</span><span class="o">=</span><span class="n">PL</span><span class="o">/</span><span
+            class="n">VL</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;ονομαστική του ένταση που είναι IL= PL/VL =&gt; IL={:.2f}A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">IL</span><span
+            class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η αντίσταση της θερμάστρας είναι: Pth=V²/Rth =&gt;Rth=Vth²/Pth =&gt;&#39;</span><span class="p">)</span>
-<span class="n">Rth</span><span class="o">=</span><span class="p">(</span><span class="n">Vth</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="n">Pth</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Rth={:.2f} Ω&#39;</span><span class="o">.</span> <span class="n">format</span><span class="p">(</span><span class="n">Rth</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η αντίσταση του λαμπτήρα είναι: PL=VL²/RL =&gt;RL=VL²/PL =&gt;&#39;</span><span class="p">)</span>
-<span class="n">RL</span><span class="o">=</span><span class="p">(</span><span class="n">VL</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="n">PL</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;RL={:.2f} Ω&#39;</span><span class="o">.</span> <span class="n">format</span><span class="p">(</span><span class="n">RL</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η αντίσταση της θερμάστρας είναι: Pth=V²/Rth =&gt;Rth=Vth²/Pth =&gt;&#39;</span><span
+            class="p">)</span>
+<span class="n">Rth</span><span class="o">=</span><span class="p">(</span><span class="n">Vth</span><span
+            class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="n">Pth</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Rth={:.2f} Ω&#39;</span><span
+            class="o">.</span> <span class="n">format</span><span class="p">(</span><span class="n">Rth</span><span
+            class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η αντίσταση του λαμπτήρα είναι: PL=VL²/RL =&gt;RL=VL²/PL =&gt;&#39;</span><span
+            class="p">)</span>
+<span class="n">RL</span><span class="o">=</span><span class="p">(</span><span class="n">VL</span><span
+            class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="n">PL</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;RL={:.2f} Ω&#39;</span><span
+            class="o">.</span> <span class="n">format</span><span class="p">(</span><span class="n">RL</span><span
+            class="p">))</span>
 
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Όταν ο λαμπτήρας συνδέεται σε σειρά με την θερμάστρα τότε&#39;</span><span class="p">)</span>
-<span class="n">I</span><span class="o">=</span><span class="n">Vth</span><span class="o">/</span><span class="p">(</span><span class="n">Rth</span><span class="o">+</span><span class="n">RL</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;στο κυκλωμα ισχύει: I*(Rth+RL)=V =&gt; I={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;που σημαίνει ότι ο λαμπτήρα διαρρέεται από πολύ μικρότερο&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;του ονομαστικού του ρεύμα. Άρα υπολειτουργεί&#39;</span><span class="p">)</span>
-</pre></div>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Όταν ο λαμπτήρας συνδέεται σε σειρά με την θερμάστρα τότε&#39;</span><span
+            class="p">)</span>
+<span class="n">I</span><span class="o">=</span><span class="n">Vth</span><span class="o">/</span><span
+            class="p">(</span><span class="n">Rth</span><span class="o">+</span><span class="n">RL</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;στο κυκλωμα ισχύει: I*(Rth+RL)=V =&gt; I={:.2f} A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I</span><span
+            class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;που σημαίνει ότι ο λαμπτήρα διαρρέεται από πολύ μικρότερο&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;του ονομαστικού του ρεύμα. Άρα υπολειτουργεί&#39;</span><span
+            class="p">)</span>
+</pre>
+</div>
 </body>
 </html>

@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -96,29 +97,57 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 <span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">sqrt</span>
 
 <span class="c1">#Δεδομένα</span>
-<span class="n">r</span><span class="o">=</span><span class="mi">5</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="mi">2</span>                       <span class="c1">#Αντίσταση ανά μονάδα μήκους σε Ω/m</span>
-<span class="n">AB</span><span class="o">=</span><span class="mi">8</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>                   <span class="c1">#Μήκος πλευράς ΑΒ σε m</span>
-<span class="n">A</span><span class="err">Γ</span><span class="o">=</span><span class="mi">6</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>                   <span class="c1">#Μήκος πλευράς ΑΓ σε m</span>
+<span class="n">r</span><span class="o">=</span><span class="mi">5</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="mi">2</span>                       <span
+            class="c1">#Αντίσταση ανά μονάδα μήκους σε Ω/m</span>
+<span class="n">AB</span><span class="o">=</span><span class="mi">8</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">2</span><span class="p">)</span>                   <span class="c1">#Μήκος πλευράς ΑΒ σε m</span>
+<span class="n">A</span><span class="err">Γ</span><span class="o">=</span><span class="mi">6</span><span
+            class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span
+            class="o">-</span><span class="mi">2</span><span class="p">)</span>                   <span class="c1">#Μήκος πλευράς ΑΓ σε m</span>
 <span class="n">V</span><span class="o">=</span><span class="mi">14</span>                            <span class="c1">#Τάση ΒΓ σε V</span>
 
 
 <span class="k">print</span><span class="p">()</span>
-<span class="err">ΒΓ</span><span class="o">=</span><span class="n">sqrt</span><span class="p">(</span><span class="n">AB</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">A</span><span class="err">Γ</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Αν εφαρμόσουμε Πυθαγόρειο Θεώρημα για το τρίγωνο ισχύει ότι ΒΓ={:.2f} m&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΒΓ</span><span class="p">))</span>
+<span class="err">ΒΓ</span><span class="o">=</span><span class="n">sqrt</span><span class="p">(</span><span
+            class="n">AB</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span
+            class="n">A</span><span class="err">Γ</span><span class="o">**</span><span class="mi">2</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Αν εφαρμόσουμε Πυθαγόρειο Θεώρημα για το τρίγωνο ισχύει ότι ΒΓ={:.2f} m&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΒΓ</span><span
+            class="p">))</span>
 
 <span class="k">print</span><span class="p">()</span>
-<span class="n">RAB</span><span class="o">=</span><span class="n">AB</span><span class="o">*</span><span class="n">r</span>
-<span class="n">RA</span><span class="err">Γ</span><span class="o">=</span><span class="n">A</span><span class="err">Γ</span><span class="o">*</span><span class="n">r</span>
-<span class="n">R</span><span class="err">ΒΓ</span><span class="o">=</span><span class="err">ΒΓ</span><span class="o">*</span><span class="n">r</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H αντίσταση της πλευράς ΑΒ είναι RAB=AB*r =&gt; RAB={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">RAB</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H αντίσταση της πλευράς ΑΓ είναι RAΓ=AΓ*r =&gt; RAΓ={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">RA</span><span class="err">Γ</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H αντίσταση της πλευράς ΒΓ είναι RΒΓ=ΒΓ*r =&gt; RΒΓ={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R</span><span class="err">ΒΓ</span><span class="p">))</span>
+<span class="n">RAB</span><span class="o">=</span><span class="n">AB</span><span class="o">*</span><span
+            class="n">r</span>
+<span class="n">RA</span><span class="err">Γ</span><span class="o">=</span><span class="n">A</span><span
+            class="err">Γ</span><span class="o">*</span><span class="n">r</span>
+<span class="n">R</span><span class="err">ΒΓ</span><span class="o">=</span><span class="err">ΒΓ</span><span
+            class="o">*</span><span class="n">r</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H αντίσταση της πλευράς ΑΒ είναι RAB=AB*r =&gt; RAB={:.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">RAB</span><span
+            class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H αντίσταση της πλευράς ΑΓ είναι RAΓ=AΓ*r =&gt; RAΓ={:.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">RA</span><span
+            class="err">Γ</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H αντίσταση της πλευράς ΒΓ είναι RΒΓ=ΒΓ*r =&gt; RΒΓ={:.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R</span><span
+            class="err">ΒΓ</span><span class="p">))</span>
 
 <span class="k">print</span><span class="p">()</span>
-<span class="n">IBA</span><span class="err">Γ</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span class="p">(</span><span class="n">RAB</span><span class="o">+</span><span class="n">RA</span><span class="err">Γ</span><span class="p">)</span>
-<span class="err">ΙΒΓ</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span class="n">R</span><span class="err">ΒΓ</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Για την ένταση ισχύει στις πλευρές ΒΑΓ ισχύει V=IBAΓ*(RAB+RAΓ) =&gt; IBAΓ=V/(RAB+RAΓ) =&gt; IBAΓ={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">IBA</span><span class="err">Γ</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Για την ένταση ισχύει στην πλευρά   ΒΓ ισχύειV=ΙΒΓ*RΒΓ         =&gt; ΙΒΓ =V/(RΒΓ)     =&gt;  IBΓ={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΙΒΓ</span><span class="p">))</span>
-</pre></div>
+<span class="n">IBA</span><span class="err">Γ</span><span class="o">=</span><span class="n">V</span><span
+            class="o">/</span><span class="p">(</span><span class="n">RAB</span><span class="o">+</span><span class="n">RA</span><span
+            class="err">Γ</span><span class="p">)</span>
+<span class="err">ΙΒΓ</span><span class="o">=</span><span class="n">V</span><span class="o">/</span><span
+            class="n">R</span><span class="err">ΒΓ</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Για την ένταση ισχύει στις πλευρές ΒΑΓ ισχύει V=IBAΓ*(RAB+RAΓ) =&gt; IBAΓ=V/(RAB+RAΓ) =&gt; IBAΓ={:.2f} A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">IBA</span><span
+            class="err">Γ</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Για την ένταση ισχύει στην πλευρά   ΒΓ ισχύειV=ΙΒΓ*RΒΓ         =&gt; ΙΒΓ =V/(RΒΓ)     =&gt;  IBΓ={:.2f} A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΙΒΓ</span><span
+            class="p">))</span>
+</pre>
+</div>
 </body>
 </html>

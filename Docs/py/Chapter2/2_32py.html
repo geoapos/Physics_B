@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -100,22 +101,38 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 <span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">sqrt</span>
 
 <span class="c1">#Δεδομένα</span>
-<span class="n">P</span><span class="o">=</span><span class="mi">2000</span>          <span class="c1">#Ισχύς σε W</span>
-<span class="n">Vk</span><span class="o">=</span><span class="mi">200</span>           <span class="c1">#Τάση σε V</span>
+<span class="n">P</span><span class="o">=</span><span class="mi">2000</span>          <span
+            class="c1">#Ισχύς σε W</span>
+<span class="n">Vk</span><span class="o">=</span><span class="mi">200</span>           <span
+            class="c1">#Τάση σε V</span>
 <span class="n">V</span><span class="o">=</span><span class="mi">160</span>           <span class="c1">#Τάση σε V</span>
 
 
 <span class="k">print</span><span class="p">()</span>
-<span class="n">R</span><span class="o">=</span><span class="p">(</span><span class="n">Vk</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="n">P</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η αντίσταση της είναι: P=Vk²/R =&gt;R= (Vk²/P) =&gt;R={:.2f} Ω&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R</span><span class="p">))</span>
-<span class="n">I</span><span class="o">=</span><span class="n">P</span><span class="o">/</span><span class="n">Vk</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το ρεύμα που την διαρέει είναι: P=I*Vk =&gt; I=P/Vk =&gt;I={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I</span><span class="p">))</span>
+<span class="n">R</span><span class="o">=</span><span class="p">(</span><span class="n">Vk</span><span
+            class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="n">P</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η αντίσταση της είναι: P=Vk²/R =&gt;R= (Vk²/P) =&gt;R={:.2f} Ω&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">R</span><span
+            class="p">))</span>
+<span class="n">I</span><span class="o">=</span><span class="n">P</span><span class="o">/</span><span
+            class="n">Vk</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το ρεύμα που την διαρέει είναι: P=I*Vk =&gt; I=P/Vk =&gt;I={:.2f} A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I</span><span
+            class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;αν συνδεθεί σε δίκτυο τάσης 160V, τότε:&#39;</span><span class="p">)</span>
-<span class="n">P2</span><span class="o">=</span><span class="p">(</span><span class="n">V</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="n">R</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;P2=V²/R =&gt; P2={:.2f} W&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">P2</span><span class="p">))</span>
-<span class="n">I2</span><span class="o">=</span><span class="n">P2</span><span class="o">/</span><span class="n">V</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;και θα την διαρέουν I2=P2/V =&gt;I2={:.2f} A&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I2</span><span class="p">))</span>
-</pre></div>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;αν συνδεθεί σε δίκτυο τάσης 160V, τότε:&#39;</span><span class="p">)</span>
+<span class="n">P2</span><span class="o">=</span><span class="p">(</span><span class="n">V</span><span
+            class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="n">R</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;P2=V²/R =&gt; P2={:.2f} W&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">P2</span><span
+            class="p">))</span>
+<span class="n">I2</span><span class="o">=</span><span class="n">P2</span><span class="o">/</span><span
+            class="n">V</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;και θα την διαρέουν I2=P2/V =&gt;I2={:.2f} A&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">I2</span><span
+            class="p">))</span>
+</pre>
+</div>
 </body>
 </html>
