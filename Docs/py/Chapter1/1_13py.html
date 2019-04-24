@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -101,28 +102,53 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
 <span class="c1">#Δεδομένα</span>
 
-<span class="n">Q1</span><span class="o">=</span> <span class="mi">4</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>               <span class="c1">#Α. φορτίο Q1 σε C.</span>
-<span class="n">Q2</span><span class="o">=-</span><span class="mi">4</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>               <span class="c1">#Α. φορτίο Q2 σε C.</span>
+<span class="n">Q1</span><span class="o">=</span> <span class="mi">4</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">6</span><span class="p">)</span>               <span class="c1">#Α. φορτίο Q1 σε C.</span>
+<span class="n">Q2</span><span class="o">=-</span><span class="mi">4</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">6</span><span class="p">)</span>               <span class="c1">#Α. φορτίο Q2 σε C.</span>
 <span class="n">d</span><span class="o">=</span><span class="mi">6</span>                          <span class="c1">#Απόσταση φορτίων σε m.</span>
 <span class="n">x</span><span class="o">=</span><span class="mi">3</span>                          <span class="c1">#Απόσταση μεσοκάθετου σε m.</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;****************&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;****************&#39;</span><span
+            class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="s1">&#39;A. +4mC&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;****************&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H ένταση στο σημείο Σ υπολογίζεται από τη συνισταμένη των δύο εντάσεων που δημιουργούν τα φορτία, τα οποία επειδή είναι ίσα δημιουργούν ίσου μέτρου εντάσεις στο Σ.&#39;</span><span class="p">)</span>
-<span class="n">AS</span><span class="o">=</span><span class="n">sqrt</span><span class="p">((</span><span class="n">d</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span> <span class="p">(</span><span class="n">d</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Επειδή το σημείο Σ της μεσοκαθέτου απέχει {:.2f} m από το μέσο της απόστασης d, με το πυθαγόρειο θεώρημα προκύπτει</span><span class="se">\n</span><span class="s1"> ΑΣ=√((d/2)^2+(d/2)^2)={:.3} m.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">AS</span><span class="p">))</span>
-<span class="n">E1</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="nb">abs</span><span class="p">(</span><span class="n">Q1</span><span class="p">)</span><span class="o">/</span><span class="n">AS</span><span class="o">**</span><span class="mi">2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το μέτρο των εντάσεων είναι: E1=E2=k*|Q1|/(ΑΣ^2) = {:.2f} N/C.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">E1</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;****************&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;H ένταση στο σημείο Σ υπολογίζεται από τη συνισταμένη των δύο εντάσεων που δημιουργούν τα φορτία, τα οποία επειδή είναι ίσα δημιουργούν ίσου μέτρου εντάσεις στο Σ.&#39;</span><span
+            class="p">)</span>
+<span class="n">AS</span><span class="o">=</span><span class="n">sqrt</span><span class="p">((</span><span
+            class="n">d</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">**</span><span
+            class="mi">2</span><span class="o">+</span> <span class="p">(</span><span class="n">d</span><span class="o">/</span><span
+            class="mi">2</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Επειδή το σημείο Σ της μεσοκαθέτου απέχει {:.2f} m από το μέσο της απόστασης d, με το πυθαγόρειο θεώρημα προκύπτει</span><span
+            class="se">\n</span><span class="s1"> ΑΣ=√((d/2)^2+(d/2)^2)={:.3} m.&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">x</span><span
+            class="p">,</span> <span class="n">AS</span><span class="p">))</span>
+<span class="n">E1</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span
+            class="nb">abs</span><span class="p">(</span><span class="n">Q1</span><span class="p">)</span><span
+            class="o">/</span><span class="n">AS</span><span class="o">**</span><span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το μέτρο των εντάσεων είναι: E1=E2=k*|Q1|/(ΑΣ^2) = {:.2f} N/C.&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">E1</span><span
+            class="p">))</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το μέτρο της συνισταμένης Εολ με βάση το πυθαγόρειο θεώρημα θα είναι Εολ=Ε1√2={:.2f} N/C.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">E1</span><span class="o">*</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="p">)))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το μέτρο της συνισταμένης Εολ με βάση το πυθαγόρειο θεώρημα θα είναι Εολ=Ε1√2={:.2f} N/C.&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">E1</span><span
+            class="o">*</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span
+            class="p">)))</span>
 <span class="k">print</span><span class="p">()</span>
 
 
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;****************&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;****************&#39;</span><span
+            class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Β. -4mC&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;****************&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Στην περίπτωση φορτίων Q=-4mC, Η συνισταμένη ένταση έχει το ίδιο μέτρο με την περίπτωση Α αλλά αντίθετη φορά.&#39;</span><span class="p">)</span>
-</pre></div>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;****************&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Στην περίπτωση φορτίων Q=-4mC, Η συνισταμένη ένταση έχει το ίδιο μέτρο με την περίπτωση Α αλλά αντίθετη φορά.&#39;</span><span
+            class="p">)</span>
+</pre>
+</div>
 </body>
 </html>

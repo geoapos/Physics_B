@@ -85,21 +85,35 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 <h2></h2>
 
 <div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/python3</span>
-<span class="c1">#Filename:1_7.py</span>
+<span class="c1"># filename 3_12.py</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Άσκηση 3.12</span>
 
-<span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">Οι παρακάτω φυσικές ποσότητες, όπου χρειάζονται, θα θεω-</span>
-<span class="sd">ρούνται γνωστές</span>
-<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">Ακτινοβολία συχνότητας 10 ΤΗz απορροφάται πλήρως από</span>
+<span class="sd">μία ποσότητα νερού, οπότε αυξάνεται η θερμοκρασία του</span>
+<span class="sd">νερού κατά 2° C.</span>
+<span class="sd">Αν γνωρίζετε ότι για να αυξηθεί η θερμοκρασία της παραπάνω</span>
+<span class="sd">ποσότητας κατά 1° C απαιτείται ενέργεια 21216 J, πόσα φωτόνια</span>
+<span class="sd">της ακτινοβολίας απορροφώνται;</span>
+<span class="sd">&quot;&quot;&quot;</span>
 
-<span class="c1">#Δεδομένα</span>
-<span class="n">k</span><span class="o">=</span><span class="mi">9</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="mi">9</span>                   <span class="c1">#ηλεκτροστατική σταθερά  N*m^2/C^2</span>
-<span class="n">g</span><span class="o">=</span><span class="mf">9.81</span>                      <span class="c1">#παγκόσμια σταθερά της βαρύτητας</span>
-<span class="n">Qp</span><span class="o">=</span><span class="mf">1.6</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">19</span><span class="p">)</span>            <span class="c1">#Το φορτίο του πρωτονίου σε Coulomb</span>
-<span class="n">Qe</span><span class="o">=-</span><span class="n">Qp</span>                      <span class="c1">#Το φορτίο του ηλεκτρονίου σε Coulomb</span>
-<span class="n">Me</span><span class="o">=</span><span class="mi">9</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">31</span><span class="p">)</span>              <span class="c1">#Μάζα ηλεκτρονίου σε kg</span>
-<span class="n">Mp</span><span class="o">=</span><span class="mf">1.6</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">27</span><span class="p">)</span>            <span class="c1">#Μάζα πρωτονίου σε</span>
-<span class="n">e0</span><span class="o">=</span><span class="mf">8.85</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">12</span><span class="p">)</span>           <span class="c1">#η απόλυτη διηλεκτρική σταθερά του κενού σε C^2/N∙m^2</span>
+
+<span class="c1"># Δεδομένα</span>
+<span class="n">f</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">*</span> <span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span>       <span class="c1"># Συχνότητα ακτινοβολίας σε Hz</span>
+<span class="n">dT</span> <span class="o">=</span> <span class="mi">2</span>                  <span class="c1"># Διαφορά θερμοκρασίας σε °</span>
+<span class="err">Εο</span> <span class="o">=</span> <span class="mi">21216</span>              <span class="c1"># Ενέργεια σε J</span>
+<span class="n">h</span> <span class="o">=</span> <span class="mf">6.63</span> <span class="o">*</span> <span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">34</span><span class="p">)</span>    <span class="c1"># Σταθερά Planck σε J*sec</span>
+<span class="n">c</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">10</span><span class="o">**</span><span class="mi">8</span>           <span class="c1"># Ταχύτητα του φωτός σε m/sec.</span>
+
+
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;Αν για να αυξηθεί η θερμοκρασία του νερού κατά ΔΤ=1 °C χρειάζεται ενεργεια Εο={Εο} J,&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;τότε για να αυξηθεί κατά dT = {dT} °C χρειάζεται E = dT * Εο = &#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="n">E</span> <span class="o">=</span> <span class="n">dT</span> <span class="o">*</span> <span class="err">Εο</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;{E} J&#39;</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Επειδή η Ενέργεια δίνεται από την σχέση Ε = N* h * f </span><span class="se">\t</span><span class="s1">όπου Ν: αριθμός φωτονίων&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;N = E / (h * f) =&gt; N = {:.3e} &#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">E</span> <span class="o">/</span> <span class="p">(</span><span class="n">h</span> <span class="o">*</span> <span class="n">f</span><span class="p">)</span> <span class="p">))</span>
 </pre></div>
 </body>
 </html>

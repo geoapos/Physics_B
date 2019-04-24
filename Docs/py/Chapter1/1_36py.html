@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -99,57 +100,104 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 <span class="sd">Πώς εξηγείται η μεταβολή της ενέργειας του πυκνωτή;</span>
 
 <span class="sd">&#39;&#39;&#39;</span>
-<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">e0</span>    <span class="c1">#H απόλυτη διηλεκτρική σταθερά του κενού</span>
+<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span
+            class="n">e0</span>    <span class="c1">#H απόλυτη διηλεκτρική σταθερά του κενού</span>
 
 <span class="c1">#Δεδομένα</span>
-<span class="n">C1</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>            <span class="c1"># χωρητικότητα πυκνωτή σε F.</span>
-<span class="n">l1</span> <span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>           <span class="c1"># απόσταση οπλισμών σε m.</span>
-<span class="n">l2</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="n">l1</span>                  <span class="c1"># απόσταση οπλισμών μετά τον διπλασιασμό σε m.</span>
+<span class="n">C1</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">6</span><span class="p">)</span>            <span class="c1"># χωρητικότητα πυκνωτή σε F.</span>
+<span class="n">l1</span> <span class="o">=</span><span class="mi">2</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">2</span><span class="p">)</span>           <span class="c1"># απόσταση οπλισμών σε m.</span>
+<span class="n">l2</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span
+            class="n">l1</span>                  <span class="c1"># απόσταση οπλισμών μετά τον διπλασιασμό σε m.</span>
 <span class="n">V1</span><span class="o">=</span><span class="mi">150</span>                   <span class="c1"># Τάση σε V</span>
-<span class="n">l2</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="n">l1</span>
+<span class="n">l2</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span
+            class="n">l1</span>
 
 <span class="k">print</span><span class="p">()</span>
-<span class="n">Q1</span><span class="o">=</span><span class="n">C1</span><span class="o">*</span><span class="n">V1</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο του πυκνωτή δίνεται από την σχέση Q1=C1*V1 =&gt; Q1={:.2e} C&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Q1</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">Q1</span><span class="o">=</span><span class="n">C1</span><span class="o">*</span><span
+            class="n">V1</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο του πυκνωτή δίνεται από την σχέση Q1=C1*V1 =&gt; Q1={:.2e} C&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Q1</span><span
+            class="p">)</span> <span class="p">)</span>
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;---------------------------A.-------------------------------&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΠΡΙΝ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η χωρητικότητα του πυκνωτή είναι C1=e0*S/l1:             C1=&#39;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">C1</span><span class="p">)</span><span class="o">+</span><span class="s1">&#39; F&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΜΕΤΑ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
-<span class="n">C2</span><span class="o">=</span><span class="n">C1</span><span class="o">/</span><span class="mi">2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η χωρητικότητα του πυκνωτή είναι C2=e0*S/2l1 =&gt;C2=C1/2 =&gt;C2={:.0e} F&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">C2</span><span class="p">))</span>
-
-
-<span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;---------------------------B.-------------------------------&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΠΡΙΝ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η τάση των οπλισμών του πυκνωτή είναι V1=Q1/C1 =&gt; V1={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V1</span><span class="p">)</span> <span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΜΕΤΑ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
-<span class="n">V2</span><span class="o">=</span><span class="n">Q1</span><span class="o">/</span><span class="n">C2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η τάση των οπλισμών του πυκνωτή είναι V2=Q1/C2 =&gt; V2={:.2f} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V2</span><span class="p">)</span> <span class="p">)</span>
-
-
-
-<span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;---------------------------Γ.-------------------------------&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΠΡΙΝ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
-<span class="n">E1</span><span class="o">=</span><span class="n">V1</span><span class="o">/</span><span class="n">l1</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ένταση του ηλεκτρικού πεδίου είναι E1=V1/l1 =&gt; E1={:.2f} V/m&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">E1</span><span class="p">)</span> <span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΜΕΤΑ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
-<span class="n">E2</span><span class="o">=</span><span class="n">V2</span><span class="o">/</span><span class="n">l2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ένταση του ηλεκτρικού πεδίου είναι E2=V2/l2 =&gt; E2={:.2f} V/m&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">E2</span><span class="p">)</span> <span class="p">)</span>
-
-
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;---------------------------A.-------------------------------&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΠΡΙΝ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η χωρητικότητα του πυκνωτή είναι C1=e0*S/l1:             C1=&#39;</span><span
+            class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">C1</span><span
+            class="p">)</span><span class="o">+</span><span class="s1">&#39; F&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΜΕΤΑ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span
+            class="p">)</span>
+<span class="n">C2</span><span class="o">=</span><span class="n">C1</span><span class="o">/</span><span
+            class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η χωρητικότητα του πυκνωτή είναι C2=e0*S/2l1 =&gt;C2=C1/2 =&gt;C2={:.0e} F&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">C2</span><span
+            class="p">))</span>
 
 
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;---------------------------Δ.-------------------------------&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΠΡΙΝ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
-<span class="n">U1</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">Q1</span><span class="o">*</span><span class="n">V1</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ενέργεια του ηλεκτρικού πεδίου είναι U1=(1/2)*Q1*V1 =&gt; U1={:.4f} J&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">U1</span><span class="p">)</span> <span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΜΕΤΑ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span class="p">)</span>
-<span class="n">U2</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">Q1</span><span class="o">*</span><span class="n">V2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ενέργεια του ηλεκτρικού πεδίου είναι U2=(1/2)*Q2*V2 =&gt; U2={:.4f} J&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">U2</span><span class="p">)</span> <span class="p">)</span>
-</pre></div>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;---------------------------B.-------------------------------&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΠΡΙΝ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η τάση των οπλισμών του πυκνωτή είναι V1=Q1/C1 =&gt; V1={:.2f} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V1</span><span
+            class="p">)</span> <span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΜΕΤΑ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span
+            class="p">)</span>
+<span class="n">V2</span><span class="o">=</span><span class="n">Q1</span><span class="o">/</span><span
+            class="n">C2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η τάση των οπλισμών του πυκνωτή είναι V2=Q1/C2 =&gt; V2={:.2f} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V2</span><span
+            class="p">)</span> <span class="p">)</span>
+
+
+
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;---------------------------Γ.-------------------------------&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΠΡΙΝ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span
+            class="p">)</span>
+<span class="n">E1</span><span class="o">=</span><span class="n">V1</span><span class="o">/</span><span
+            class="n">l1</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ένταση του ηλεκτρικού πεδίου είναι E1=V1/l1 =&gt; E1={:.2f} V/m&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">E1</span><span
+            class="p">)</span> <span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΜΕΤΑ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span
+            class="p">)</span>
+<span class="n">E2</span><span class="o">=</span><span class="n">V2</span><span class="o">/</span><span
+            class="n">l2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ένταση του ηλεκτρικού πεδίου είναι E2=V2/l2 =&gt; E2={:.2f} V/m&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">E2</span><span
+            class="p">)</span> <span class="p">)</span>
+
+
+
+
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;---------------------------Δ.-------------------------------&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΠΡΙΝ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span
+            class="p">)</span>
+<span class="n">U1</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span
+            class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">Q1</span><span
+            class="o">*</span><span class="n">V1</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ενέργεια του ηλεκτρικού πεδίου είναι U1=(1/2)*Q1*V1 =&gt; U1={:.4f} J&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">U1</span><span
+            class="p">)</span> <span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;-ΜΕΤΑ ΤΟΝ ΔΙΠΛΑΣΙΑΣΜΟ-&#39;</span><span
+            class="p">)</span>
+<span class="n">U2</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span
+            class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">Q1</span><span
+            class="o">*</span><span class="n">V2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η ενέργεια του ηλεκτρικού πεδίου είναι U2=(1/2)*Q2*V2 =&gt; U2={:.4f} J&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">U2</span><span
+            class="p">)</span> <span class="p">)</span>
+</pre>
+</div>
 </body>
 </html>

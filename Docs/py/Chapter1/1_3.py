@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#Filename:1_3.py
+# Filename:1_3.py
 
 '''
 Άσκηση 3:
@@ -10,15 +10,15 @@
 '''
 from math import sqrt
 from const import k
-#Δεδομένα
 
-q=-0.02*10**(-6)    #φορτια
-F=9*10**(-3)        #Δύναμη
+# Δεδομένα
 
+q = -0.02 * 10 ** (-6)  # φορτια
+F = 9 * 10 ** (-3)  # Δύναμη
 
 print("Από τον νόμο του Coulomb: ")
 print('r=√(k*q*q/F')
 print()
-r=sqrt(k*q*q/F)
+r = sqrt(k * q * q / F)
 
 print('r={:.3f} m'.format(r))

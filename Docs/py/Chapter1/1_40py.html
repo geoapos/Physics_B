@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -95,23 +96,34 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 <span class="sd">Β. Ποια είναι η ταχύτητα των ηλεκτρονίων;</span>
 <span class="sd">&#39;&#39;&#39;</span>
 
-<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">Qe</span>    <span class="c1"># Φορτίο ηλεκτρονίου σε C</span>
-<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">Me</span>    <span class="c1"># Μάζα ηλεκτρονίου σε Kg</span>
+<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span
+            class="n">Qe</span>    <span class="c1"># Φορτίο ηλεκτρονίου σε C</span>
+<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span
+            class="n">Me</span>    <span class="c1"># Μάζα ηλεκτρονίου σε Kg</span>
 <span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">sqrt</span>
 
 <span class="c1">#Δεδομένα</span>
 
-<span class="n">V</span> <span class="o">=</span><span class="mi">20000</span>         <span class="c1"># Τάση σε V</span>
+<span class="n">V</span> <span class="o">=</span><span class="mi">20000</span>         <span
+            class="c1"># Τάση σε V</span>
 
 
 <span class="k">print</span><span class="p">()</span>
-<span class="n">Ek</span><span class="o">=</span><span class="nb">abs</span><span class="p">(</span><span class="n">Qe</span><span class="p">)</span><span class="o">*</span><span class="n">V</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;A. H κινητική ενέργεια που αποκτούν τα ηλεκτρόνια είναι Ek=|Q|*V:. Άρα: </span><span class="se">\n\t</span><span class="s1"> Ek={:.2e} J&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Ek</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">Ek</span><span class="o">=</span><span class="nb">abs</span><span class="p">(</span><span
+            class="n">Qe</span><span class="p">)</span><span class="o">*</span><span class="n">V</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;A. H κινητική ενέργεια που αποκτούν τα ηλεκτρόνια είναι Ek=|Q|*V:. Άρα: </span><span
+            class="se">\n\t</span><span class="s1"> Ek={:.2e} J&#39;</span><span class="o">.</span><span class="n">format</span><span
+            class="p">(</span><span class="n">Ek</span><span class="p">)</span> <span class="p">)</span>
 <span class="k">print</span><span class="p">()</span>
 
 <span class="k">print</span><span class="p">()</span>
-<span class="n">u</span><span class="o">=</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">Ek</span><span class="o">/</span><span class="n">Me</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Β. Από την σχέση Εk=(1/2)*m*u², όπου Εk κινητική ενέργεια, Me μάζα ηλεκτρονίου και u η ταχύτητα που αποκτούν τα ηλεκτρόνια προκύπτει u= √(2Ek/Me), Άρα: </span><span class="se">\n\t</span><span class="s1"> u={:.2e} m/sec&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">u</span><span class="p">))</span>
-</pre></div>
+<span class="n">u</span><span class="o">=</span><span class="n">sqrt</span><span class="p">(</span><span
+            class="mi">2</span><span class="o">*</span><span class="n">Ek</span><span class="o">/</span><span class="n">Me</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Β. Από την σχέση Εk=(1/2)*m*u², όπου Εk κινητική ενέργεια, Me μάζα ηλεκτρονίου και u η ταχύτητα που αποκτούν τα ηλεκτρόνια προκύπτει u= √(2Ek/Me), Άρα: </span><span
+            class="se">\n\t</span><span class="s1"> u={:.2e} m/sec&#39;</span><span class="o">.</span><span class="n">format</span><span
+            class="p">(</span><span class="n">u</span><span class="p">))</span>
+</pre>
+</div>
 </body>
 </html>

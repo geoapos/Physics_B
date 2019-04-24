@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -98,77 +99,148 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 <span class="sd">   περιεχόμενο του έργου αυτού;</span>
 
 <span class="sd">&#39;&#39;&#39;</span>
-<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">k</span>         <span class="c1">#ηλεκτροστατική σταθερά  N*m^2/C^2</span>
-<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">Qp</span>        <span class="c1">#φορτίο πρωτονίου Qp σε C.</span>
-<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">Qe</span>        <span class="c1">#φορτίο ηλεκτρονίου Qe σε C.</span>
-<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">Me</span>        <span class="c1">#Μάζα ηλεκτρονίου Μe σε Kg.</span>
+<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">k</span>         <span
+            class="c1">#ηλεκτροστατική σταθερά  N*m^2/C^2</span>
+<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">Qp</span>        <span
+            class="c1">#φορτίο πρωτονίου Qp σε C.</span>
+<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">Qe</span>        <span
+            class="c1">#φορτίο ηλεκτρονίου Qe σε C.</span>
+<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">Me</span>        <span
+            class="c1">#Μάζα ηλεκτρονίου Μe σε Kg.</span>
 <span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">sqrt</span>
 
 
 <span class="c1">#Δεδομένα</span>
-<span class="n">Q1</span><span class="o">=</span><span class="mi">30</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>              <span class="c1">#φορτίο Q1 σε C.</span>
-<span class="n">Q2</span><span class="o">=-</span><span class="mi">60</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>             <span class="c1">#φορτίο Q2 σε C.</span>
-<span class="n">Q3</span><span class="o">=</span><span class="mi">90</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>              <span class="c1">#φορτίο Q3 σε C.</span>
-<span class="n">Q4</span><span class="o">=-</span><span class="mi">120</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>            <span class="c1">#φορτίο Q4 σε C.</span>
-<span class="n">q</span><span class="o">=</span> <span class="mi">1</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">9</span><span class="p">)</span>               <span class="c1">#φορτίο q σε C.</span>
-<span class="n">d</span><span class="o">=</span><span class="mi">5</span><span class="o">*</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>                 <span class="c1">#μήκος πλευράς σε m.</span>
+<span class="n">Q1</span><span class="o">=</span><span class="mi">30</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">6</span><span class="p">)</span>              <span class="c1">#φορτίο Q1 σε C.</span>
+<span class="n">Q2</span><span class="o">=-</span><span class="mi">60</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">6</span><span class="p">)</span>             <span class="c1">#φορτίο Q2 σε C.</span>
+<span class="n">Q3</span><span class="o">=</span><span class="mi">90</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">6</span><span class="p">)</span>              <span class="c1">#φορτίο Q3 σε C.</span>
+<span class="n">Q4</span><span class="o">=-</span><span class="mi">120</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">6</span><span class="p">)</span>            <span class="c1">#φορτίο Q4 σε C.</span>
+<span class="n">q</span><span class="o">=</span> <span class="mi">1</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">9</span><span class="p">)</span>               <span class="c1">#φορτίο q σε C.</span>
+<span class="n">d</span><span class="o">=</span><span class="mi">5</span><span class="o">*</span><span
+            class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>                 <span
+            class="c1">#μήκος πλευράς σε m.</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;--------------Α.--------------------&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;--------------Α.--------------------&#39;</span><span class="p">)</span>
 
-<span class="err">ΒΜ</span><span class="o">=</span><span class="n">AM</span><span class="o">=</span><span class="n">d</span><span class="o">/</span><span class="mi">2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Στο μέσο της πλευράς ΑΒ, έχουμε ΑΜ= ΜΒ= d/2 =&gt; AM = {:.2f}m&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">AM</span><span class="p">))</span>
+<span class="err">ΒΜ</span><span class="o">=</span><span class="n">AM</span><span class="o">=</span><span
+            class="n">d</span><span class="o">/</span><span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Στο μέσο της πλευράς ΑΒ, έχουμε ΑΜ= ΜΒ= d/2 =&gt; AM = {:.2f}m&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">AM</span><span
+            class="p">))</span>
 
-<span class="err">ΓΜ</span><span class="o">=</span><span class="err">ΔΜ</span><span class="o">=</span><span class="n">sqrt</span><span class="p">(</span><span class="n">AM</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">d</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η απόσταση ΓΜ και ΔΜ είναι ίσες. ΓΜ=ΔΜ = ( √(ΑΜ²+ΓΑ²) ) = {:.2f} m&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΓΜ</span><span class="p">))</span>
+<span class="err">ΓΜ</span><span class="o">=</span><span class="err">ΔΜ</span><span class="o">=</span><span class="n">sqrt</span><span
+            class="p">(</span><span class="n">AM</span><span class="o">**</span><span class="mi">2</span><span
+            class="o">+</span><span class="n">d</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Η απόσταση ΓΜ και ΔΜ είναι ίσες. ΓΜ=ΔΜ = ( √(ΑΜ²+ΓΑ²) ) = {:.2f} m&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΓΜ</span><span
+            class="p">))</span>
 
-<span class="n">VAM</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="n">Q1</span><span class="o">/</span><span class="n">AM</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q1 δημιουργεί στο σημείο Μ ένα δυναμικό VAM=k*Q1/AM={:.2e} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">VAM</span><span class="p">))</span>
+<span class="n">VAM</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span
+            class="n">Q1</span><span class="o">/</span><span class="n">AM</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q1 δημιουργεί στο σημείο Μ ένα δυναμικό VAM=k*Q1/AM={:.2e} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">VAM</span><span
+            class="p">))</span>
 
-<span class="n">VBM</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="n">Q2</span><span class="o">/</span><span class="err">ΒΜ</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q2 δημιουργεί στο σημείο Μ ένα δυναμικό VBM=k*Q2/ΒΜ={:.2e} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">VBM</span><span class="p">))</span>
+<span class="n">VBM</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span
+            class="n">Q2</span><span class="o">/</span><span class="err">ΒΜ</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q2 δημιουργεί στο σημείο Μ ένα δυναμικό VBM=k*Q2/ΒΜ={:.2e} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">VBM</span><span
+            class="p">))</span>
 
-<span class="n">V</span><span class="err">Γ</span><span class="n">M</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="n">Q3</span><span class="o">/</span><span class="err">ΓΜ</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q3 δημιουργεί στο σημείο Μ ένα δυναμικό VΓM=k*Q1/ΓM={:.2e} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V</span><span class="err">Γ</span><span class="n">M</span><span class="p">))</span>
+<span class="n">V</span><span class="err">Γ</span><span class="n">M</span><span class="o">=</span><span
+            class="n">k</span><span class="o">*</span><span class="n">Q3</span><span class="o">/</span><span
+            class="err">ΓΜ</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q3 δημιουργεί στο σημείο Μ ένα δυναμικό VΓM=k*Q1/ΓM={:.2e} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V</span><span
+            class="err">Γ</span><span class="n">M</span><span class="p">))</span>
 
-<span class="n">V</span><span class="err">Δ</span><span class="n">M</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="n">Q4</span><span class="o">/</span><span class="err">ΔΜ</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q4 δημιουργεί στο σημείο Μ ένα δυναμικό VΔM=k*Q4/ΔM={:.2e} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V</span><span class="err">Δ</span><span class="n">M</span><span class="p">))</span>
+<span class="n">V</span><span class="err">Δ</span><span class="n">M</span><span class="o">=</span><span
+            class="n">k</span><span class="o">*</span><span class="n">Q4</span><span class="o">/</span><span
+            class="err">ΔΜ</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q4 δημιουργεί στο σημείο Μ ένα δυναμικό VΔM=k*Q4/ΔM={:.2e} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V</span><span
+            class="err">Δ</span><span class="n">M</span><span class="p">))</span>
 
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το συνολικό δυναμικό είναι το αλγεβρικο άθροισμα των δυναμικών κάθε φορτίου:&#39;</span><span class="p">)</span>
-<span class="n">VM</span><span class="o">=</span><span class="n">VAM</span><span class="o">+</span><span class="n">VBM</span><span class="o">+</span><span class="n">V</span><span class="err">Γ</span><span class="n">M</span><span class="o">+</span><span class="n">V</span><span class="err">Δ</span><span class="n">M</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;VM=VAM+VBM+VΓM+VΔM =&gt;VM = {:.2e} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">VM</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το συνολικό δυναμικό είναι το αλγεβρικο άθροισμα των δυναμικών κάθε φορτίου:&#39;</span><span
+            class="p">)</span>
+<span class="n">VM</span><span class="o">=</span><span class="n">VAM</span><span class="o">+</span><span
+            class="n">VBM</span><span class="o">+</span><span class="n">V</span><span class="err">Γ</span><span
+            class="n">M</span><span class="o">+</span><span class="n">V</span><span class="err">Δ</span><span class="n">M</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;VM=VAM+VBM+VΓM+VΔM =&gt;VM = {:.2e} V&#39;</span><span class="o">.</span><span class="n">format</span><span
+            class="p">(</span><span class="n">VM</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n</span><span
+            class="s1">&#39;</span><span class="p">)</span>
 
 
 
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;--------------B.--------------------&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;--------------B.--------------------&#39;</span><span class="p">)</span>
 
-<span class="n">x</span><span class="o">=</span><span class="n">sqrt</span><span class="p">(</span><span class="n">d</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">d</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το κέντρο του τετραγώνου απέχει από κάθε κορυφή απόσταση x=( √(d²+d²) ) / 2 = {:.2f}m&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="n">x</span><span class="o">=</span><span class="n">sqrt</span><span class="p">(</span><span
+            class="n">d</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">d</span><span
+            class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span
+            class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το κέντρο του τετραγώνου απέχει από κάθε κορυφή απόσταση x=( √(d²+d²) ) / 2 = {:.2f}m&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">x</span><span
+            class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
 
-<span class="n">V1</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="n">Q1</span><span class="o">/</span><span class="n">x</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q1 δημιουργεί ένα δυναμικό V1=k*Q1/x={:.2e} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V1</span><span class="p">))</span>
+<span class="n">V1</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span
+            class="n">Q1</span><span class="o">/</span><span class="n">x</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q1 δημιουργεί ένα δυναμικό V1=k*Q1/x={:.2e} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V1</span><span
+            class="p">))</span>
 
-<span class="n">V2</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="n">Q2</span><span class="o">/</span><span class="n">x</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q2 δημιουργεί ένα δυναμικό V2=k*Q2/x={:.2e} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V2</span><span class="p">))</span>
+<span class="n">V2</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span
+            class="n">Q2</span><span class="o">/</span><span class="n">x</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q2 δημιουργεί ένα δυναμικό V2=k*Q2/x={:.2e} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V2</span><span
+            class="p">))</span>
 
-<span class="n">V3</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="n">Q3</span><span class="o">/</span><span class="n">x</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ομοίως το φορτίο Q3 δημιουργεί ένα δυναμικό V3=k*Q3/x={:.2e} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V3</span><span class="p">))</span>
+<span class="n">V3</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span
+            class="n">Q3</span><span class="o">/</span><span class="n">x</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ομοίως το φορτίο Q3 δημιουργεί ένα δυναμικό V3=k*Q3/x={:.2e} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V3</span><span
+            class="p">))</span>
 
-<span class="n">V4</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="n">Q4</span><span class="o">/</span><span class="n">x</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ομοίως το φορτίο Q4 δημιουργεί ένα δυναμικό V4=k*Q4/x={:.2e} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V4</span><span class="p">))</span>
+<span class="n">V4</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span
+            class="n">Q4</span><span class="o">/</span><span class="n">x</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ομοίως το φορτίο Q4 δημιουργεί ένα δυναμικό V4=k*Q4/x={:.2e} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">V4</span><span
+            class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
 
-<span class="n">VK</span><span class="o">=</span><span class="n">V1</span><span class="o">+</span><span class="n">V2</span><span class="o">+</span><span class="n">V3</span><span class="o">+</span><span class="n">V4</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το δυναμικό στο κέντρο του τετραγώνου, είναι VK=V1+V2+V3+V4.={:.2e} V&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">VK</span><span class="p">))</span>
+<span class="n">VK</span><span class="o">=</span><span class="n">V1</span><span class="o">+</span><span
+            class="n">V2</span><span class="o">+</span><span class="n">V3</span><span class="o">+</span><span class="n">V4</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το δυναμικό στο κέντρο του τετραγώνου, είναι VK=V1+V2+V3+V4.={:.2e} V&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">VK</span><span
+            class="p">))</span>
 
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;--------------Γ.--------------------&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;--------------Γ.--------------------&#39;</span><span class="p">)</span>
 <span class="k">print</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το έργο της δύναμης του πεδίου για την μεταφορά του φοριου q από το σημείο Μ στο σημείο Κ, δινεται από την σχέση:&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;W=(VM-VK)*q={:.2e} Joule&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">((</span><span class="n">VM</span><span class="o">-</span><span class="n">VK</span><span class="p">)</span><span class="o">*</span><span class="n">q</span><span class="p">))</span>
-</pre></div>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το έργο της δύναμης του πεδίου για την μεταφορά του φοριου q από το σημείο Μ στο σημείο Κ, δινεται από την σχέση:&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;W=(VM-VK)*q={:.2e} Joule&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">((</span><span class="n">VM</span><span
+            class="o">-</span><span class="n">VK</span><span class="p">)</span><span class="o">*</span><span
+            class="n">q</span><span class="p">))</span>
+</pre>
+</div>
 </body>
 </html>

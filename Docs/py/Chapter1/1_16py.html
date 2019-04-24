@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -97,34 +98,80 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 <span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">sqrt</span>
 
 <span class="c1">#Δεδομένα</span>
-<span class="n">Q1</span><span class="o">=</span> <span class="mi">100</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>            <span class="c1">#φορτίο Q1 σε C.</span>
-<span class="n">Q2</span><span class="o">=</span> <span class="o">-</span><span class="mi">200</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>           <span class="c1">#φορτίο Q2 σε C.</span>
-<span class="n">Q3</span><span class="o">=</span> <span class="mi">97</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>             <span class="c1">#φορτίο Q3 σε C.</span>
-<span class="n">Q4</span><span class="o">=</span> <span class="o">-</span><span class="mi">196</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>           <span class="c1">#φορτίο Q4 σε C.</span>
+<span class="n">Q1</span><span class="o">=</span> <span class="mi">100</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">6</span><span class="p">)</span>            <span class="c1">#φορτίο Q1 σε C.</span>
+<span class="n">Q2</span><span class="o">=</span> <span class="o">-</span><span class="mi">200</span><span
+            class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span
+            class="o">-</span><span class="mi">6</span><span class="p">)</span>           <span class="c1">#φορτίο Q2 σε C.</span>
+<span class="n">Q3</span><span class="o">=</span> <span class="mi">97</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">6</span><span class="p">)</span>             <span class="c1">#φορτίο Q3 σε C.</span>
+<span class="n">Q4</span><span class="o">=</span> <span class="o">-</span><span class="mi">196</span><span
+            class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span
+            class="o">-</span><span class="mi">6</span><span class="p">)</span>           <span class="c1">#φορτίο Q4 σε C.</span>
 <span class="n">l</span><span class="o">=</span><span class="mf">0.1</span>                       <span class="c1">#πλευρά τετραγώνου σε m.</span>
 
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;****************&#39;</span><span class="p">)</span>
-<span class="n">r</span><span class="o">=</span><span class="n">sqrt</span><span class="p">(</span><span class="n">l</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">l</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το κέντρο του τετραγώνου απέχει από κάθε κορυφή απόσταση r=( √(l²+l²) ) / 2 = {:.2f}m&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">r</span><span class="p">))</span>
-<span class="err">ΕΑ</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="nb">abs</span><span class="p">(</span><span class="n">Q1</span><span class="p">)</span><span class="o">/</span><span class="n">r</span><span class="o">**</span><span class="mi">2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q1 δημιουργεί ένα ηλεκτροστατικό πεδίο έντασης ΕΑ=k*|Q1|/r²={:.2e} N/C&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΕΑ</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;****************&#39;</span><span
+            class="p">)</span>
+<span class="n">r</span><span class="o">=</span><span class="n">sqrt</span><span class="p">(</span><span
+            class="n">l</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">l</span><span
+            class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span
+            class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το κέντρο του τετραγώνου απέχει από κάθε κορυφή απόσταση r=( √(l²+l²) ) / 2 = {:.2f}m&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">r</span><span
+            class="p">))</span>
+<span class="err">ΕΑ</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span
+            class="nb">abs</span><span class="p">(</span><span class="n">Q1</span><span class="p">)</span><span
+            class="o">/</span><span class="n">r</span><span class="o">**</span><span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Το φορτίο Q1 δημιουργεί ένα ηλεκτροστατικό πεδίο έντασης ΕΑ=k*|Q1|/r²={:.2e} N/C&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΕΑ</span><span
+            class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
-<span class="err">ΕΒ</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="nb">abs</span><span class="p">(</span><span class="n">Q2</span><span class="p">)</span><span class="o">/</span><span class="n">r</span><span class="o">**</span><span class="mi">2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ομοίως, Το φορτίο Q2 δημιουργεί ένα ηλεκτροστατικό πεδίο έντασης ΕΒ=k*|Q2|/r²={:.2e} N/C&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΕΒ</span><span class="p">))</span>
+<span class="err">ΕΒ</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span
+            class="nb">abs</span><span class="p">(</span><span class="n">Q2</span><span class="p">)</span><span
+            class="o">/</span><span class="n">r</span><span class="o">**</span><span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ομοίως, Το φορτίο Q2 δημιουργεί ένα ηλεκτροστατικό πεδίο έντασης ΕΒ=k*|Q2|/r²={:.2e} N/C&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΕΒ</span><span
+            class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
-<span class="err">ΕΓ</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="nb">abs</span><span class="p">(</span><span class="n">Q3</span><span class="p">)</span><span class="o">/</span><span class="n">r</span><span class="o">**</span><span class="mi">2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ομοίως, Το φορτίο Q3 δημιουργεί ένα ηλεκτροστατικό πεδίο έντασης ΕΓ=k*|Q3|/r²={:.2e} N/C&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΕΓ</span><span class="p">))</span>
+<span class="err">ΕΓ</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span
+            class="nb">abs</span><span class="p">(</span><span class="n">Q3</span><span class="p">)</span><span
+            class="o">/</span><span class="n">r</span><span class="o">**</span><span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ομοίως, Το φορτίο Q3 δημιουργεί ένα ηλεκτροστατικό πεδίο έντασης ΕΓ=k*|Q3|/r²={:.2e} N/C&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΕΓ</span><span
+            class="p">))</span>
 <span class="k">print</span><span class="p">()</span>
-<span class="err">ΕΔ</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span class="nb">abs</span><span class="p">(</span><span class="n">Q4</span><span class="p">)</span><span class="o">/</span><span class="n">r</span><span class="o">**</span><span class="mi">2</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ομοίως, Το φορτίο Q4 δημιουργεί ένα ηλεκτροστατικό πεδίο έντασης ΕΔ=k*|Q4|/r²={:.2e} N/C&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΕΔ</span><span class="p">))</span>
+<span class="err">ΕΔ</span><span class="o">=</span><span class="n">k</span><span class="o">*</span><span
+            class="nb">abs</span><span class="p">(</span><span class="n">Q4</span><span class="p">)</span><span
+            class="o">/</span><span class="n">r</span><span class="o">**</span><span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ομοίως, Το φορτίο Q4 δημιουργεί ένα ηλεκτροστατικό πεδίο έντασης ΕΔ=k*|Q4|/r²={:.2e} N/C&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΕΔ</span><span
+            class="p">))</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Υπολογίζουμε τη συνισταμένη με διεύθυνση (ΑΓ):ΕΑ-ΕΓ={:.2e} N/C&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΕΑ</span><span class="o">-</span><span class="err">ΕΓ</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Υπολογίζουμε τη συνισταμένη με διεύθυνση (ΒΔ):ΕΒ-ΕΔ={:.2e} N/C&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΕΒ</span><span class="o">-</span><span class="err">ΕΔ</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Και επομένως η συνισταμένη ένταση έχει μέτρο:&#39;</span><span class="p">)</span>
-<span class="err">Εολ</span><span class="o">=</span><span class="n">sqrt</span><span class="p">((</span><span class="err">ΕΑ</span><span class="o">-</span><span class="err">ΕΓ</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="p">(</span><span class="err">ΕΒ</span><span class="o">-</span><span class="err">ΕΔ</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Eολ=√(ΕΑΓ²-ΕΒΔ²) ή Εολ={:.2e} N/C&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">Εολ</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;και γωνία εφθ=ΕΑΓ/ΕΒΔ =&gt; εφθ={:.2f}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">((</span><span class="err">ΕΑ</span><span class="o">-</span><span class="err">ΕΓ</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="err">ΕΒ</span><span class="o">-</span><span class="err">ΕΔ</span><span class="p">)))</span>
-</pre></div>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Υπολογίζουμε τη συνισταμένη με διεύθυνση (ΑΓ):ΕΑ-ΕΓ={:.2e} N/C&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΕΑ</span><span
+            class="o">-</span><span class="err">ΕΓ</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Υπολογίζουμε τη συνισταμένη με διεύθυνση (ΒΔ):ΕΒ-ΕΔ={:.2e} N/C&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">ΕΒ</span><span
+            class="o">-</span><span class="err">ΕΔ</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Και επομένως η συνισταμένη ένταση έχει μέτρο:&#39;</span><span
+            class="p">)</span>
+<span class="err">Εολ</span><span class="o">=</span><span class="n">sqrt</span><span class="p">((</span><span
+            class="err">ΕΑ</span><span class="o">-</span><span class="err">ΕΓ</span><span class="p">)</span><span
+            class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="p">(</span><span
+            class="err">ΕΒ</span><span class="o">-</span><span class="err">ΕΔ</span><span class="p">)</span><span
+            class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;Eολ=√(ΕΑΓ²-ΕΒΔ²) ή Εολ={:.2e} N/C&#39;</span><span class="o">.</span><span
+            class="n">format</span><span class="p">(</span><span class="err">Εολ</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;και γωνία εφθ=ΕΑΓ/ΕΒΔ =&gt; εφθ={:.2f}&#39;</span><span class="o">.</span><span class="n">format</span><span
+            class="p">((</span><span class="err">ΕΑ</span><span class="o">-</span><span class="err">ΕΓ</span><span
+            class="p">)</span><span class="o">/</span><span class="p">(</span><span class="err">ΕΒ</span><span
+            class="o">-</span><span class="err">ΕΔ</span><span class="p">)))</span>
+</pre>
+</div>
 </body>
 </html>

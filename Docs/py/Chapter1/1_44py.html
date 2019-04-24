@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+        "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <style type="text/css">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
 span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
 pre { line-height: 125%; }
@@ -79,7 +79,8 @@ body .vi { color: #B8860B } /* Name.Variable.Instance */
 body .vm { color: #B8860B } /* Name.Variable.Magic */
 body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
-  </style>
+
+    </style>
 </head>
 <body>
 <h2></h2>
@@ -102,19 +103,35 @@ body .il { color: #666666 } /* Literal.Number.Integer.Long */
 
 <span class="n">l</span><span class="o">=</span><span class="mi">1</span>                    <span class="c1">#απόσταση οπλισμών σε m</span>
 <span class="n">V</span><span class="o">=</span><span class="mi">2000</span>                 <span class="c1">#Η διαφορά δυναμικού των οπλισμών σε V</span>
-<span class="n">q</span><span class="o">=</span><span class="mi">1</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">)</span>           <span class="c1">#φορτίο σε class</span>
-<span class="n">KA</span><span class="o">=</span><span class="mi">20</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>         <span class="c1">#απόσταση ΚΑ σε m</span>
-<span class="err">ΚΛ</span><span class="o">=</span><span class="mi">60</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>         <span class="c1">#απόσταση ΚΛ σε m</span>
+<span class="n">q</span><span class="o">=</span><span class="mi">1</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">6</span><span class="p">)</span>           <span class="c1">#φορτίο σε class</span>
+<span class="n">KA</span><span class="o">=</span><span class="mi">20</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">2</span><span class="p">)</span>         <span class="c1">#απόσταση ΚΑ σε m</span>
+<span class="err">ΚΛ</span><span class="o">=</span><span class="mi">60</span><span class="o">*</span><span
+            class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span
+            class="mi">2</span><span class="p">)</span>         <span class="c1">#απόσταση ΚΛ σε m</span>
 <span class="k">print</span><span class="p">()</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Α. Το έργο της δύναμης του πεδίου δινεται από την σχέση W=ΔV*q&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;όπου ΔV είναι η διαφορά δυναμικού μεταξύ Κ και Λ&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ισχύει ότι Ε=ΔV/KΛ (1), επίσης&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Α. Το έργο της δύναμης του πεδίου δινεται από την σχέση W=ΔV*q&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;όπου ΔV είναι η διαφορά δυναμικού μεταξύ Κ και Λ&#39;</span><span
+            class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span
+            class="s1">&#39;Ισχύει ότι Ε=ΔV/KΛ (1), επίσης&#39;</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Ε=V/l (2)&#39;</span><span class="p">)</span>
-<span class="err">Δ</span><span class="n">V</span><span class="o">=</span><span class="n">V</span><span class="o">*</span><span class="err">ΚΛ</span><span class="o">/</span><span class="n">l</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Από (1) και (2) έχουμε: ΔV=V*KΛ/l =&gt; ΔV={:.2f}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">Δ</span><span class="n">V</span><span class="p">))</span>
-<span class="n">W1</span><span class="o">=</span><span class="n">q</span><span class="o">*</span><span class="err">Δ</span><span class="n">V</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Επομένως το έργο της δύναμης από το Κ στο Λ είναι WK→Λ=q*ΔV =&gt; WK→Λ={:.2e} J&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">W1</span><span class="p">))</span>
-</pre></div>
+<span class="err">Δ</span><span class="n">V</span><span class="o">=</span><span class="n">V</span><span
+            class="o">*</span><span class="err">ΚΛ</span><span class="o">/</span><span class="n">l</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Από (1) και (2) έχουμε: ΔV=V*KΛ/l =&gt; ΔV={:.2f}&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="err">Δ</span><span
+            class="n">V</span><span class="p">))</span>
+<span class="n">W1</span><span class="o">=</span><span class="n">q</span><span class="o">*</span><span
+            class="err">Δ</span><span class="n">V</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Επομένως το έργο της δύναμης από το Κ στο Λ είναι WK→Λ=q*ΔV =&gt; WK→Λ={:.2e} J&#39;</span><span
+            class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">W1</span><span
+            class="p">))</span>
+</pre>
+</div>
 </body>
 </html>
