@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.22063667" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4ebd95d-68cf-4b34-8774-ddd5a01ef297" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/py/Chapter4/4_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/py/Chapter4/4_3py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/py/Chapter4/4_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/py/Chapter4/4_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/py/Chapter4/4_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/py/Chapter4/4_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/py/Chapter4/4_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/py/Chapter4/4_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Physics_B.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Physics_B.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/22-0219-02_Fysiki_B-Lykeiou_Vivlio-Mathiti.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/22-0220-02_Fysiki_B-Lykeiou_Lyseis-Askiseon.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_10.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_11.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_11.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_12.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_12.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_13.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_13.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_14.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_14.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_15.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_15.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_16.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_16.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_17.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_17.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_18.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_19.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_19.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_20.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_20.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_21.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_21.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_22.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_22.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_23.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_23.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_24.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_24.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_25.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_25.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_26.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_26.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_27.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_27.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_28.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_28.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_29.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_29.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_30.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_30.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_31.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_31.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_32.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_32.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_33.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_33.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_34.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_34.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_35.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_35.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_36.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_36.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_37.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_37.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_38.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_38.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_39.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_39.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_4.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_40.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_40.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_41.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_41.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_42.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_42.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_43.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_43.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_44.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_44.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_5.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_6.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_6.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_7.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_7.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_8.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_8.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_9.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter1/1_9.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_10.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_11.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_11.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_12.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_12.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_13.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_13.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_14.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_14.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_15.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_15.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_16.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_16.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_17.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_17.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_18.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_19.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_19.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_20.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_20.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_21.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_21.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_22.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_22.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_23.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_23.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_24.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_24.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_25.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_25.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_26.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_26.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_27.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_27.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_28.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_28.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_29.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_29.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_30.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_30.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_31.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_31.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_32.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_32.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_33.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_33.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_34.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_34.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_35.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_35.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_36.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_36.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_37.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_37.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_38.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_38.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_39.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_39.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_4.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_40.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_40.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_41.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_41.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_42.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_42.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_43.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_43.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_44.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_44.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_45.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_45.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_46.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_46.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_6.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_6.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_7.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_7.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_8.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_8.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_9.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter2/2_9.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_4.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_5.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_6.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_6.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_7.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_7.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_8.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter3/3_8.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_4.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_5.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_6.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_6.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_7.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_7.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_8.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_8.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_9.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/pdf/Chapter4/4_9.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/1_2019-04-05_1343-34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/1_2019-04-10_1222-35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/1_2019-04-11_0842-56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/1_2019-04-11_0843-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_10E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_10L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_11E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_11L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_12E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_12L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_13E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_13L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_14E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_14L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_15E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_15L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_16E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_16L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_17E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_17L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_18E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_18L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_19.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_19E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_19L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_1E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_1L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_20.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_20E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_20L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_21E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_21L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_22E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_22L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_23.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_23E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_23L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_24E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_24L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_25.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_25E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_25L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_26.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_26E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_26L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_27.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_27E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_27L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_28.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_28E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_28L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_29.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_29E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_29L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_2E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_2L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_30.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_30E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_30L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_31.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_31E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_31L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_32E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_32L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_33.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_33E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_33L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_34.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_34E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_34L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_35.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_35E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_35L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_36.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_36E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_36L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_37.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_37E.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_37E.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_37L.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_37L.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_38.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_38E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_38L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_39.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_39E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_39L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_3E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_3L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_40.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_40E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_40L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_41.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_41E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_41L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_42.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_42E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_42L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_43.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_43E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_43L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_44.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_44E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_44L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_4E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_4L.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_4L.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_5E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_5L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_6E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_6L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_7E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_7L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_8E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_8L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter1/1_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_9E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter1/1_9L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_10E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_10L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_11E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_11L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_12E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_12L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_13E1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_13E2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_13L1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_13L2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_14E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_14L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_15E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_15L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_16E1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_16E2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_16L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_17E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_17L1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_17L2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_18E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_18L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_19.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_19E1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_19E2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_19L1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_19L2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_1E.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_1E.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_1L.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_1L.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_20.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_20E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_20L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_21E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_21L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_22E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_22L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_23.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_23E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_23L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_24E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_24L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_25.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_25E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_25L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_26.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_26E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_26L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_27.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_27E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_27L1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_27L2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_28.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_28E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_28L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_29.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_29E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_29L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_2E.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_2E.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_2L.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_2L.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_30.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_30E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_30L1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_30L2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_31.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_31E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_31L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_32E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_32L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_33.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_33E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_33L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_34.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_34E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_34L.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_34L.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_35.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_35E1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_35E2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_35L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_36.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_36E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_36L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_37.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_37E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_37L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_38.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_38E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_38L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_39.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_39E1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_39E2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_39L.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_39L.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_3E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_3L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_40.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_40E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_40L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_41.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_41E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_41L1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_41L2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_42.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_42E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_42L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_43.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_43E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_43L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_44.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_44E1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_44E2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_44L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_45.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_45.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_45E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_45L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_46.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_46E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_46L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_4E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_4L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_6E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_6L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_7E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_7L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_8E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_8L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter2/2_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_9E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter2/2_9L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter3/3_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter3/3_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter3/3_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter3/3_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter3/3_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter3/3_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter3/3_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter3/3_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter3/3_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter3/3_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter3/3_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter3/3_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter3/3_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter3/3_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter3/3_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter3/3_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter4/4_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter4/4_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter4/4_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter4/4_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter4/4_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter4/4_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter4/4_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter4/4_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter4/4_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter4/4_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter4/4_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter4/4_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter4/4_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter4/4_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter4/4_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter4/4_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter4/4_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/png/Chapter4/4_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter4/Screenshot-20190402221723-1311x883.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter4/Screenshot-20190402222133-585x221.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/png/Chapter4/Screenshot-20190421074948-217x214.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_10py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_10py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_11py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_11py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_12py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_12py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_13py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_13py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_14py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_14py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_15py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_15py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_16py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_16py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_17.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_17py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_17py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_18py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_18py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_19py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_19py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_1py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_1py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_20.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_20py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_20py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_21.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_21py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_21py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_22.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_22py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_22py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_23.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_23py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_23py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_24.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_24py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_24py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_25.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_25py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_25py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_26.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_26.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_26py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_26py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_27.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_27.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_27py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_27py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_28.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_28.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_28py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_28py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_29.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_29.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_29py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_29py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_2py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_2py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_30.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_30.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_30py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_30py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_31.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_31.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_31py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_31py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_32.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_32py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_32py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_33.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_33.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_33py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_33py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_34.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_34.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_34py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_34py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_35.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_35.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_35py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_35py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_36.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_36.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_36py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_36py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_37.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_37.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_37py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_37py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_38.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_38.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_38py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_38py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_39.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_39.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_39py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_39py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_3py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_3py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_40.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_40.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_40py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_40py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_41.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_41.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_41py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_41py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_42.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_42.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_42py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_42py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_43.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_43.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_43py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_43py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_44.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_44.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_44py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_44py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_4py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_4py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_5py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_5py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_6py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_6py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_7py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_7py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_8py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_8py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/1_9py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/1_9py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter1/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter1/const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_10py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_10py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_11py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_11py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_12py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_12py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_13py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_13py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_14py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_14py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_15py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_15py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_16py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_16py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_17.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_17py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_17py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_18py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_18py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_19py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_19py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_1py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_1py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_20.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_20py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_20py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_21.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_21py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_21py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_22.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_22py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_22py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_23.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_23py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_23py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_24.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_24py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_24py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_25.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_25py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_25py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_26.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_26.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_26py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_26py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_27.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_27.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_27py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_27py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_28.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_28.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_28py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_28py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_29.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_29.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_29py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_29py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_2py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_2py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_30.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_30.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_30py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_30py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_31.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_31.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_31py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_31py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_32.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_32py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_32py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_33.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_33.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_33py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_33py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_34.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_34.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_34py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_34py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_35.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_35.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_35py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_35py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_36.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_36.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_36py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_36py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_37.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_37.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_37py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_37py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_38.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_38.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_38py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_38py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_39.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_39.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_39py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_39py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_3py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_3py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_40.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_40.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_40py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_40py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_41.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_41.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_41py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_41py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_42.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_42.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_42py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_42py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_43.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_43.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_43py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_43py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_44.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_44.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_44py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_44py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_45.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_45.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_45py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_45py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_46.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_46.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_46py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_46py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_4py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_4py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_5py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_5py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_6py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_6py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_7py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_7py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_8py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_8py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter2/2_9py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter2/2_9py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_10py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_10py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_11py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_11py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_12py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_12py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_1py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_1py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_2py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_2py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_3py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_3py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_4py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_4py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_5py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_5py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_6py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_6py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_7py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_7py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_8py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_8py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter3/3_9py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter3/3_9py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter4/4_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter4/4_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter4/4_1py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter4/4_1py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter4/4_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter4/4_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/py/Chapter4/4_2py.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/py/Chapter4/4_2py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cd-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cd-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/heart.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/heart.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/right_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/right_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/title.txt" beforeDir="false" afterPath="$PROJECT_DIR$/title.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Physics_B" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Docs/py/Chapter4/4_9.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ΘΕΩΡΗΤΙΚ</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/Docs/py</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_1.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_20.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_16.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_3.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_4.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_5.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_6.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_7.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_9.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_10.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_11.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_12.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_13.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter2/2_14.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter3/3_1.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter3/3_2.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter3/3_3.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter3/3_4.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter3/3_5.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter3/3_6.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter3/3_7.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter3/3_8.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter3/3_9.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter3/3_12.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter3/3_11.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter3/3_10.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter1/const.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter4/4_1.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter4/4_2.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter4/4_3.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter4/4_4.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter4/4_5.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter4/4_6.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter4/4_7.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter4/4_8.py" />
+        <option value="$PROJECT_DIR$/Docs/py/Chapter4/4_9.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="y" value="48" />
+    <option name="width" value="960" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Physics_B" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Physics_B" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Physics_B" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Physics_B" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Physics_B" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Physics_B" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Physics_B" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Physics_B" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Physics_B" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Physics_B" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Physics_B" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Physics_B" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Physics_B" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Dropbox/Documents/MASTER/diplomacy/Github/Physics_B" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Docs/py/Chapter4" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Physics_B" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Physics_B" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Docs/py/Chapter4" />
+      <recent name="$PROJECT_DIR$/Docs/py/Chapter3" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.4_9">
+    <configuration name="4_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Physics_B" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Docs/py/Chapter4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Docs/py/Chapter4/4_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4_6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Physics_B" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Docs/py/Chapter4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Docs/py/Chapter4/4_6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Physics_B" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Docs/py/Chapter4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Docs/py/Chapter4/4_7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Physics_B" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Docs/py/Chapter4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Docs/py/Chapter4/4_8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4_9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Physics_B" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Docs/py/Chapter4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Docs/py/Chapter4/4_9.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.4_9" />
+        <item itemvalue="Python.4_8" />
+        <item itemvalue="Python.4_7" />
+        <item itemvalue="Python.4_6" />
+        <item itemvalue="Python.4_5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4ebd95d-68cf-4b34-8774-ddd5a01ef297" name="Default Changelist" comment="" />
+      <created>1555943664373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555943664373</updated>
+    </task>
+    <task id="LOCAL-00001" summary="v.3">
+      <created>1556002475107</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556002475107</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="48" width="1920" height="1032" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.13127" />
+      <window_info id="Structure" order="1" sideWeight="0.50110865" side_tool="true" weight="0.18051118" />
+      <window_info id="Favorites" order="2" sideWeight="0.50110865" side_tool="true" weight="0.18051118" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3292683" />
+      <window_info anchor="bottom" id="Python Console" order="1" weight="0.3292683" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" auto_hide="true" id="Debug" internal_type="SLIDING" order="5" type="SLIDING" weight="0.3481153" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.27494457" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="9" visible="true" weight="0.3292683" />
+      <window_info anchor="right" id="R Packages" order="0" />
+      <window_info anchor="right" id="R Graphics" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Event Log" order="5" sideWeight="0.25166297" side_tool="true" weight="0.35356763" />
+      <window_info anchor="right" x="507" y="546" width="772" height="432" id="Run" order="6" sideWeight="0.74833703" weight="0.46325877" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.3" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_20.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_19.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_8.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_7.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_14.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_13.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_12.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_11.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_10.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter1/1_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_36.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="36" column="177" selection-start-line="36" selection-start-column="177" selection-end-line="36" selection-end-column="177" />
+          <folding>
+            <element signature="n#style#0;n#object#0;n#ul#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_34.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" lean-forward="true" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter3/3_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter3/3_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter3/3_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter3/3_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter3/3_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter3/3_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter3/3_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter3/3_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter3/3_9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter3/3_10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter3/3_11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter3/3_12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter2/2_24.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter4/4_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#333#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter4/4_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter4/4_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="e#227#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter4/4_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter4/4_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="15" />
+          <folding>
+            <element signature="e#355#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter4/4_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter4/4_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter4/4_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter1/const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/py/Chapter4/4_9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

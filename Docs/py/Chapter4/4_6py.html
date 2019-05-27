@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <style type="text/css">
+td.linenos { background-color: #f0f0f0; padding-right: 10px; }
+span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
+pre { line-height: 125%; }
+body .hll { background-color: #ffffcc }
+body  { background: #f8f8f8; }
+body .c { color: #008800; font-style: italic } /* Comment */
+body .err { border: 1px solid #FF0000 } /* Error */
+body .k { color: #AA22FF; font-weight: bold } /* Keyword */
+body .o { color: #666666 } /* Operator */
+body .ch { color: #008800; font-style: italic } /* Comment.Hashbang */
+body .cm { color: #008800; font-style: italic } /* Comment.Multiline */
+body .cp { color: #008800 } /* Comment.Preproc */
+body .cpf { color: #008800; font-style: italic } /* Comment.PreprocFile */
+body .c1 { color: #008800; font-style: italic } /* Comment.Single */
+body .cs { color: #008800; font-weight: bold } /* Comment.Special */
+body .gd { color: #A00000 } /* Generic.Deleted */
+body .ge { font-style: italic } /* Generic.Emph */
+body .gr { color: #FF0000 } /* Generic.Error */
+body .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+body .gi { color: #00A000 } /* Generic.Inserted */
+body .go { color: #888888 } /* Generic.Output */
+body .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+body .gs { font-weight: bold } /* Generic.Strong */
+body .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+body .gt { color: #0044DD } /* Generic.Traceback */
+body .kc { color: #AA22FF; font-weight: bold } /* Keyword.Constant */
+body .kd { color: #AA22FF; font-weight: bold } /* Keyword.Declaration */
+body .kn { color: #AA22FF; font-weight: bold } /* Keyword.Namespace */
+body .kp { color: #AA22FF } /* Keyword.Pseudo */
+body .kr { color: #AA22FF; font-weight: bold } /* Keyword.Reserved */
+body .kt { color: #00BB00; font-weight: bold } /* Keyword.Type */
+body .m { color: #666666 } /* Literal.Number */
+body .s { color: #BB4444 } /* Literal.String */
+body .na { color: #BB4444 } /* Name.Attribute */
+body .nb { color: #AA22FF } /* Name.Builtin */
+body .nc { color: #0000FF } /* Name.Class */
+body .no { color: #880000 } /* Name.Constant */
+body .nd { color: #AA22FF } /* Name.Decorator */
+body .ni { color: #999999; font-weight: bold } /* Name.Entity */
+body .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+body .nf { color: #00A000 } /* Name.Function */
+body .nl { color: #A0A000 } /* Name.Label */
+body .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+body .nt { color: #008000; font-weight: bold } /* Name.Tag */
+body .nv { color: #B8860B } /* Name.Variable */
+body .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+body .w { color: #bbbbbb } /* Text.Whitespace */
+body .mb { color: #666666 } /* Literal.Number.Bin */
+body .mf { color: #666666 } /* Literal.Number.Float */
+body .mh { color: #666666 } /* Literal.Number.Hex */
+body .mi { color: #666666 } /* Literal.Number.Integer */
+body .mo { color: #666666 } /* Literal.Number.Oct */
+body .sa { color: #BB4444 } /* Literal.String.Affix */
+body .sb { color: #BB4444 } /* Literal.String.Backtick */
+body .sc { color: #BB4444 } /* Literal.String.Char */
+body .dl { color: #BB4444 } /* Literal.String.Delimiter */
+body .sd { color: #BB4444; font-style: italic } /* Literal.String.Doc */
+body .s2 { color: #BB4444 } /* Literal.String.Double */
+body .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+body .sh { color: #BB4444 } /* Literal.String.Heredoc */
+body .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+body .sx { color: #008000 } /* Literal.String.Other */
+body .sr { color: #BB6688 } /* Literal.String.Regex */
+body .s1 { color: #BB4444 } /* Literal.String.Single */
+body .ss { color: #B8860B } /* Literal.String.Symbol */
+body .bp { color: #AA22FF } /* Name.Builtin.Pseudo */
+body .fm { color: #00A000 } /* Name.Function.Magic */
+body .vc { color: #B8860B } /* Name.Variable.Class */
+body .vg { color: #B8860B } /* Name.Variable.Global */
+body .vi { color: #B8860B } /* Name.Variable.Instance */
+body .vm { color: #B8860B } /* Name.Variable.Magic */
+body .il { color: #666666 } /* Literal.Number.Integer.Long */
+
+  </style>
+</head>
+<body>
+<h2></h2>
+
+<div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/python3</span>
+<span class="c1"># filename 4_6.py</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Άσκηση 4.6</span>
+
+<span class="sd">Ηλεκτρόνια επιταχύνονται μέσω τάσης 12,3V και περνάνε μέσα από αέριο</span>
+<span class="sd">που αποτελείται από άτομα υδρογόνου τα οποία βρίσκονται στη θεμελιώδη</span>
+<span class="sd">κατάσταση. Να υπολογιστούν τα μήκη κύματος της ακτινοβολίας που εκπέμπει</span>
+<span class="sd">το αέριο. Η ενέργεια του ατόμου του υδρογόνου στη θεμελιώδη κατάσταση</span>
+<span class="sd">είναι –13,6eV.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">c</span>		<span class="c1"># ταχύτητα του φωτός</span>
+<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">h</span>		<span class="c1"># σταθερά του Planc</span>
+<span class="kn">from</span> <span class="nn">const</span> <span class="kn">import</span> <span class="n">eV</span>	<span class="c1"># Ενέργεια σε J</span>
+
+<span class="c1"># Δεδομένα</span>
+<span class="n">E1</span> <span class="o">=</span> <span class="o">-</span><span class="mf">13.6</span>  	<span class="c1"># Ενέργεια 1ης στάθμης σε eV</span>
+<span class="n">E</span> <span class="o">=</span> <span class="mf">12.3</span>  		<span class="c1"># Ενέργεια  σε eV</span>
+<span class="n">n1</span> <span class="o">=</span> <span class="mi">1</span>			<span class="c1"># Κβαντικός αριθμός 1ης στάθμης</span>
+<span class="n">n2</span> <span class="o">=</span> <span class="mi">2</span>			<span class="c1"># Κβαντικός αριθμός 2ης στάθμης</span>
+<span class="n">n3</span> <span class="o">=</span> <span class="mi">3</span>			<span class="c1"># Κβαντικός αριθμός 3ης στάθμης</span>
+
+
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;α) Τα ηλεκτρόνια μπορεί να δώσουν οποιοδήποτε μέρος της ενέργειάς τους σε μια</span><span class="se">\n</span><span class="s1">&#39;</span>
+	  <span class="s1">&#39;   κρούση. Το άτομο διεγείρεται από την κατάσταση n=1 έως την κατάσταση n και</span><span class="se">\n</span><span class="s1">&#39;</span>
+	  <span class="s1">&#39;   απορροφά ενέργεια: E = En - E1 = E1 / n² - E1 , άρα:&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;   n ≤ √(E1/E-E1) =&gt; n ≤ &#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="n">n</span><span class="o">=</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">E1</span><span class="o">/</span><span class="p">(</span><span class="n">E</span><span class="o">+</span><span class="n">E1</span><span class="p">)))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;{n:.2f} </span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;   Επομένως το άτομο μπορεί να διεγερθεί από τη θεμελιώδη κατάσταση έως την</span><span class="se">\n</span><span class="s1">&#39;</span>
+	  <span class="s1">&#39;   κατάσταση n=2 ή n=3. Κατά την αποδιέγερσή του μπορεί να πραγματοποιήσει τις</span><span class="se">\n</span><span class="s1">&#39;</span>
+	  <span class="s1">&#39;   μεταβάσεις:&#39;</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">α. n=3 σε n=2</span><span class="se">\n</span><span class="s1">&#39;</span>
+	  <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">β. n=3 σε n=1</span><span class="se">\n</span><span class="s1">&#39;</span>
+	  <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">γ. n=2 σε n =1&#39;</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">Για καθεμιά από τις παραπάνω μεταβάσεις εκπέμπεται ένα φωτόνιο, το μήκος</span><span class="se">\n</span><span class="s1">&#39;</span>
+	  <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">κύματος του οποίου υπολογίζεται από την σχέση: λ=h*c/E &#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">()</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">α) μετάβαση από n=3 σε n=2: λ32= h*c/ (E3-E2)=h*c/((E1/n3**2)-(E1/n2**2)) =&gt; λ32 = &#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="err">λ</span><span class="mi">32</span> <span class="o">=</span> <span class="n">h</span><span class="o">*</span><span class="n">c</span><span class="o">/</span><span class="p">(((</span><span class="n">E1</span><span class="o">/</span><span class="n">n3</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">-</span><span class="p">(</span><span class="n">E1</span><span class="o">/</span><span class="n">n2</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span><span class="o">*</span><span class="n">eV</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;{λ32:.2e} m&#39;</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">β) μετάβαση από n=3 σε n=1: λ31= h*c/ (E3-E1)=h*c/((E1/n3**2)-(E1/n1**2)) =&gt; λ31 = &#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="err">λ</span><span class="mi">31</span> <span class="o">=</span> <span class="n">h</span><span class="o">*</span><span class="n">c</span><span class="o">/</span><span class="p">(((</span><span class="n">E1</span><span class="o">/</span><span class="n">n3</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">-</span><span class="p">(</span><span class="n">E1</span><span class="o">/</span><span class="n">n1</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span><span class="o">*</span><span class="n">eV</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;{λ31:.2e} m&#39;</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">γ) μετάβαση από n=2 σε n=1: λ21= h*c/ (E2-E1)=h*c/((E1/n2**2)-(E1/n1**2)) =&gt; λ31 = &#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="err">λ</span><span class="mi">21</span> <span class="o">=</span> <span class="n">h</span><span class="o">*</span><span class="n">c</span><span class="o">/</span><span class="p">(((</span><span class="n">E1</span><span class="o">/</span><span class="n">n2</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">-</span><span class="p">(</span><span class="n">E1</span><span class="o">/</span><span class="n">n1</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span><span class="o">*</span><span class="n">eV</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;{λ21:.2e} m&#39;</span><span class="p">)</span>
+</pre></div>
+</body>
+</html>
